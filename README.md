@@ -16,14 +16,6 @@ Desktop
 </a>
 </details>
 
-<details>  
-<summary>
-Login screen (SDDM greeter)
-</summary>
-<img src="" alt=" Sugar Catppuccin SDDM">
-</details>
-
-
 # 💾 Acknowledgements
 Persons where I learned or used as a base for my stuff:
 - [fuxefan/dotfiles ](https://github.com/fufexan/dotfiles/blob/main/README.md) for learning how to make a good looking README.md
