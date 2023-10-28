@@ -31,7 +31,7 @@ exec-once = swaync
 exec-once = udiskie
 
 # Executes NWG Dock (Plank-like but for wayland).
-exec-once = nwg-dock-hyprland
+#exec-once = nwg-dock-hyprland
 
 # Some default env vars.
 env = XCURSOR_SIZE,24
@@ -180,9 +180,11 @@ bindm = $mainMod, mouse:273, resizewindow
 #bind = $mainMod,F3,exec,brightnessctl set 10%+
 
 # Volume Control keys
-#bind = $mainMod,F6, exec, pactl set-sink-mute @DEFAULT_SINK@ toggle
-#bind = $mainMod,F7, exec, pactl set-sink-volume @DEFAULT_SINK@ -5%
-#bind = $mainMod,F8, exec, pactl set-sink-volume @DEFAULT_SINK@ +5%
+bind = , XF86AudioRaiseVolume, exec, pamixer -i 5 
+bind = , XF86AudioLowerVolume, exec, pamixer -d 5 
+#bind = , XF86AudioMicMute, exec, pamixer --default-source -m
+bind = , XF86AudioMute, exec, pamixer -t
+bind = , Print, exec, grim -g "$(slurp)"
 
 '';
 

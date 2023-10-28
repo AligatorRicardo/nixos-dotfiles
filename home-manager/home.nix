@@ -62,6 +62,7 @@
     pkgs.mpd
     pkgs.pw-viz
     pkgs.libinput
+    pkgs.neofetch
     # Fonts
     pkgs.nerdfonts
     pkgs.font-awesome
@@ -100,6 +101,9 @@
   # Imports a basic Godot configuration
   xdg.configFile."godot/text_editor_themes/Catppuccin.tet".source = ./confs/godot-catppuccin.tet;
   xdg.configFile."godot/editor_settings-4.tres".source = ./confs/godot-settings.tres;
+
+  # Imports a basic Neofetch configuration
+  xdg.configFile."neofetch/config.conf".source = ./confs/neofetch.config;
 
   # You can also manage environment variables but you will have to manually
   # source: ~/.nix-profile/etc/profile.d/hm-session-vars
