@@ -133,6 +133,10 @@
   # Set your time zone.
   time.timeZone = "America/Fortaleza";
 
+  # Enables GNOME Keyring
+  services.gnome.gnome-keyring.enable = true;
+  security.pam.services.login.enableGnomeKeyring = true;
+
   # Select internationalisation and language properties
   i18n.defaultLocale = "pt_BR.UTF-8";
   i18n.extraLocaleSettings = {
