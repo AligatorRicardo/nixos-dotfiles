@@ -1,7 +1,7 @@
 # Edit this configuration file to define what should be installed on
 # your system.
 
-{ config, pkgs, ... }: 
+{ config, pkgs, stdenv, ... }: 
 
 {
   imports =
@@ -43,7 +43,10 @@
 
   # Enables Graphical stack (X.org/Wayland + SDDM + Hyprland WM)
   services.xserver.enable = true;
-  services.xserver.displayManager.sddm.enable = true;
+  services.xserver.displayManager.sddm = {
+      enable = true;
+      theme = "${import ./sddm-theme.nix {inherit pkgs; }}";
+  };
   programs.hyprland = {
    enable = true;  
    #nvidiaPatches = true; (switching hardware)
@@ -187,6 +190,8 @@
   lshw
   brightnessctl 
   cachix
+  libsForQt5.qt5.qtquickcontrols2
+  libsForQt5.qt5.qtgraphicaleffects
   ];
 
   # Enable the OpenSSH daemon.
