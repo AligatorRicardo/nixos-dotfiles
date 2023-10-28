@@ -1,0 +1,11 @@
+{"_id":"backendPreference","value":"local"}
+{"_id":"barColor","value":false}
+{"_id":"baseTheme","value":"catppuccinMocha"}
+{"_id":"bounds","value":{"x":7,"y":175,"width":1352,"height":586,"maximized":false,"fullScreen":false}}
+{"_id":"forceLocalBackendForLegacy","value":false}
+{"_id":"hideHeaderLogo","value":false}
+{"_id":"mainColor","value":"CatppuccinMochaMauve"}
+{"_id":"rememberHistory","value":false}
+{"_id":"saveWatchedProgress","value":false}
+{"_id":"secColor","value":"CatppuccinMochaMauve"}
+{"_id":"useSponsorBlock","value":true}

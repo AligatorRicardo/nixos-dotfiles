@@ -1,0 +1,294 @@
+1697421717849	Sync.Status	INFO	Resetting Status.
+1697421717849	Sync.Status	DEBUG	Status.service: undefined => success.status_ok
+1697421717854	FirefoxAccounts	TRACE	initializing new storage manager
+1697421717854	FirefoxAccounts	TRACE	starting fetch of json user data
+1697421717855	Sync.SyncScheduler	TRACE	Setting SyncScheduler policy values to defaults.
+1697421717855	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1697421717857	Sync.Service	INFO	Loading Weave 1.120.0
+1697421717858	Sync.Engine.Clients	DEBUG	Engine constructed
+1697421717860	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1697421717873	Sync.Engine.Addons	DEBUG	Engine constructed
+1697421717891	FirefoxAccounts	TRACE	finished fetch of json user data - took: 37
+1697421717892	FirefoxAccounts	DEBUG	reading secure storage with existing: []
+1697421717892	FirefoxAccounts	TRACE	starting fetch of user data from the login manager
+1697421717898	FirefoxAccounts	DEBUG	secure read fetched items: ["scopedKeys"]
+1697421717899	FirefoxAccounts	TRACE	initializing of new storage manager done
+1697421717901	Sync.Engine.Addons	DEBUG	SyncEngine initialized: addons
+1697421717909	Sync.Engine.Passwords	DEBUG	Engine constructed
+1697421717918	Sync.Engine.Passwords	DEBUG	SyncEngine initialized: passwords
+1697421717925	Sync.Engine.Prefs	DEBUG	Engine constructed
+1697421717932	Sync.Engine.Prefs	DEBUG	SyncEngine initialized: prefs
+1697421717941	Sync.Engine.Bookmarks	DEBUG	Engine constructed
+1697421717948	Sync.Engine.Bookmarks	DEBUG	SyncEngine initialized: bookmarks
+1697421717954	Sync.Engine.Forms	DEBUG	Engine constructed
+1697421717958	Sync.Engine.Forms	DEBUG	SyncEngine initialized: forms
+1697421717966	Sync.Engine.History	DEBUG	Engine constructed
+1697421717978	Sync.Engine.History	DEBUG	SyncEngine initialized: history
+1697421717989	Sync.Engine.Tabs	DEBUG	Engine constructed
+1697421718001	Sync.Engine.Tabs	DEBUG	SyncEngine initialized: tabs
+1697421718021	Sync.Engine.Tabs	INFO	Got a bridged engine!
+1697421718029	Sync.Engine.Addresses	DEBUG	Engine constructed
+1697421718063	Sync.Engine.Addresses	DEBUG	SyncEngine initialized: addresses
+1697421718065	Sync.Engine.CreditCards	DEBUG	Engine constructed
+1697421718072	Sync.Engine.CreditCards	DEBUG	SyncEngine initialized: creditcards
+1697421718077	Sync.Engine.Extension-Storage	DEBUG	Engine constructed
+1697421718110	Sync.Engine.Extension-Storage	DEBUG	SyncEngine initialized: extension-storage
+1697421718111	Sync.Service	INFO	Mozilla/5.0 (X11; Linux x86_64; rv:118.0) Gecko/20100101 LibreWolf/118.0.1
+1697421718114	Sync.AddonsReconciler	INFO	Registering as Add-on Manager listener.
+1697421718115	Sync.AddonsReconciler	DEBUG	Adding change listener.
+1697421718115	Sync.Engine.History.Tracker	INFO	Adding Places observer.
+1697421718149	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Initialized
+1697421718150	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1697421718150	FirefoxAccounts	DEBUG	getOAuthToken enter
+1697421718151	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1697421718151	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1697421718156	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1697421718171	Sync.Service	DEBUG	User-Agent: LibreWolf/118.0.1 (Linux x86_64) FxSync/1.120.0.20231005194346.desktop
+1697421718172	Sync.Service	INFO	Starting sync at 2023-10-15 23:01:58 in browser session KzSwovrnhy6p
+1697421718172	Sync.Service	DEBUG	In sync: should login.
+1697421718172	Sync.Service	INFO	User logged in successfully - verifying login.
+1697421718174	Sync.SyncAuthManager	DEBUG	unlockAndVerifyAuthState already has (or can fetch) sync keys
+1697421718174	Sync.Status	DEBUG	Status.login: success.login => success.status_ok
+1697421718174	Sync.Status	DEBUG	Status.service: success.status_ok => error.login.failed
+1697421718174	Sync.Service	DEBUG	Fetching unlocked auth state returned success.status_ok
+1697421718176	Sync.SyncAuthManager	INFO	Getting sync key
+1697421718177	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1697421718177	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1697421718177	FirefoxAccounts	DEBUG	getOAuthToken enter
+1697421718177	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1697421718177	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1697421718178	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1697421718179	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1697421718249	FirefoxAccounts	DEBUG	FxAccountsWebChannel registered: account_updates with origin https://accounts.firefox.com
+1697421718386	FirefoxAccounts	INFO	fetching updated device list
+1697421718425	Services.Common.RESTRequest	DEBUG	GET request to https://api.accounts.firefox.com/v1/account/devices?filterIdleDevicesTimestamp=1695607318397
+1697421720533	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 200
+1697421720533	Services.Common.TokenServerClient	DEBUG	Got token response: 200
+1697421720534	Services.Common.TokenServerClient	DEBUG	Successful token response
+1697421720535	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for undefined
+1697421720535	Sync.Status	DEBUG	Status.login: success.status_ok => success.login
+1697421720535	Sync.Status	DEBUG	Status.service: error.login.failed => success.status_ok
+1697421720536	Sync.SyncAuthManager	DEBUG	_findCluster returning https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200047465/
+1697421720536	Sync.SyncAuthManager	DEBUG	Cluster value = https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200047465/
+1697421720536	Sync.SyncAuthManager	DEBUG	Setting cluster to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200047465/
+1697421720536	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200047465/
+1697421720545	FirefoxAccounts	INFO	Already fetching device list, return existing promise
+1697421721884	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200047465/info/collections
+1697421721885	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200047465/info/configuration
+1697421722377	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200047465/info/configuration
+1697421722378	Sync.Service	DEBUG	Fetching global metadata record
+1697421722758	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200047465/storage/meta/global
+1697421722758	Sync.Service	DEBUG	Clearing cached meta record. metaModified is undefined, setting to 1668466999.01
+1697421723229	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200047465/storage/meta/global
+1697421723230	Sync.Service	DEBUG	Weave Version: 1.120.0 Local Storage: 5 Remote Storage: 5
+1697421723230	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1697421723230	Sync.Service	INFO	Testing info/collections: {"forms":1694988923.02,"clients":1697419839.17,"addons":1697406990.15,"history":1697421148.08,"tabs":1697421613.13,"extension-storage":1697421148.42,"crypto":1665246635.41,"prefs":1697310260.93,"bookmarks":1697309383.93,"meta":1668466999.01,"passwords":1695507017.42}
+1697421723231	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 0
+1697421723231	Sync.Service	INFO	collection keys reports that a key update is needed.
+1697421723585	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200047465/storage/crypto/keys
+1697421723585	Sync.CollectionKeyManager	INFO	Updating collection keys...
+1697421723587	Sync.CollectionKeyManager	INFO	Setting collection keys contents. Our last modified: 0, input modified: 1665246635.41.
+1697421723587	Sync.BulkKeyBundle	INFO	BulkKeyBundle being created for [default]
+1697421723587	Sync.CollectionKeyManager	INFO	Processing downloaded per-collection keys.
+1697421723588	Sync.CollectionKeyManager	INFO	Clearing collection keys...
+1697421723588	Sync.CollectionKeyManager	INFO	Saving downloaded keys.
+1697421723588	Sync.CollectionKeyManager	INFO	Bumping last modified to 1665246635.41
+1697421723588	Sync.CollectionKeyManager	INFO	Collection keys updated.
+1697421723588	Sync.Status	DEBUG	Status.login: success.login => success.login
+1697421723588	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1697421723588	Sync.Service	DEBUG	Caching URLs under storage user base: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200047465/
+1697421723589	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1697421723593	FirefoxAccounts	INFO	Already fetching device list, return existing promise
+1697421723594	Sync.Status	INFO	Resetting Status.
+1697421723594	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1697421723914	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200047465/info/collections
+1697421723915	Sync.Service	DEBUG	Fetching server configuration: https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200047465/info/configuration
+1697421724268	Sync.Resource	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200047465/info/configuration
+1697421724269	Sync.Service	DEBUG	Fetching global metadata record
+1697421724269	Sync.Service	DEBUG	Weave Version: 1.120.0 Local Storage: 5 Remote Storage: 5
+1697421724269	Sync.Service	DEBUG	Fetching and verifying -- or generating -- symmetric keys.
+1697421724269	Sync.Service	INFO	Testing info/collections: {"prefs":1697310260.93,"forms":1694988923.02,"history":1697421148.08,"addons":1697406990.15,"crypto":1665246635.41,"bookmarks":1697309383.93,"tabs":1697421613.13,"clients":1697419839.17,"extension-storage":1697421148.42,"meta":1668466999.01,"passwords":1695507017.42}
+1697421724269	Sync.CollectionKeyManager	INFO	Testing for updateNeeded. Last modified: 1665246635.41
+1697421724269	Sync.Synchronizer	DEBUG	Refreshing client list.
+1697421724270	Sync.Engine.Clients	DEBUG	First sync, uploading all items
+1697421724271	Sync.Engine.Clients	DEBUG	Resetting clients last sync time
+1697421725659	Sync.Collection	DEBUG	GET success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200047465/storage/clients?full=1&limit=1000
+1697421725752	Sync.Engine.Clients	INFO	Records: 58 applied, 58 successfully, 0 failed to apply, 0 newly failed to apply, 1 reconciled.
+1697421725753	FirefoxAccounts	INFO	Already fetching device list, return existing promise
+1697421732743	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1697421734687	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile failed: 2153389959 - 
+1697421734688	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a1f87 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1697421734689	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a1f87 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1697421734689	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a1f87 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1697421734689	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a1f87 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1697421734690	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a1f87 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1697421734690	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a1f87 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1697421734690	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a1f87 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1697421734690	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a1f87 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1697421734691	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a1f87 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1697421734691	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a1f87 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1697421734691	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a1f87 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1697421734691	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a1f87 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1697421734692	FirefoxAccounts	ERROR	Background refresh of profile failed: {"name":"FxAccountsProfileClientError","code":null,"errno":998,"error":"NETWORK_ERROR","message":"[Exception... \"<no message>\"  nsresult: \"0x805a1f87 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]"}
+1697421734693	Services.Common.RESTRequest	DEBUG	GET https://api.accounts.firefox.com/v1/account/devices?filterIdleDevicesTimestamp=1695607318397 failed: 2153389959 - 
+1697421734694	Hawk	WARN	hawk request error: [Exception... "<no message>"  nsresult: "0x805a1f87 (<unknown>)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479"  data: no] Stack trace: onStopRequest()@resource://services-common/rest.sys.mjs:479
+1697421734694	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get status :: line 616"  data: no] Stack trace: get status()@resource://services-common/rest.sys.mjs:616
+request()@resource://services-common/hawkclient.sys.mjs:230
+1697421734695	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status text: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatusText]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get statusText :: line 631"  data: no] Stack trace: get statusText()@resource://services-common/rest.sys.mjs:631
+request()@resource://services-common/hawkclient.sys.mjs:238
+1697421734695	Hawk	DEBUG	(Response) /account/devices?filterIdleDevicesTimestamp=1695607318397: code: null - Status text: null
+1697421734695	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get headers :: line 663"  data: no] Stack trace: get headers()@resource://services-common/rest.sys.mjs:663
+_maybeNotifyBackoff()@resource://services-common/hawkclient.sys.mjs:307
+request()@resource://services-common/hawkclient.sys.mjs:246
+1697421734695	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get headers :: line 663"  data: no] Stack trace: get headers()@resource://services-common/rest.sys.mjs:663
+_maybeNotifyBackoff()@resource://services-common/hawkclient.sys.mjs:307
+request()@resource://services-common/hawkclient.sys.mjs:247
+1697421734696	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status text: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatusText]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get statusText :: line 631"  data: no] Stack trace: get statusText()@resource://services-common/rest.sys.mjs:631
+_constructError()@resource://services-common/hawkclient.sys.mjs:113
+request()@resource://services-common/hawkclient.sys.mjs:252
+1697421734696	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get status :: line 616"  data: no] Stack trace: get status()@resource://services-common/rest.sys.mjs:616
+_constructError()@resource://services-common/hawkclient.sys.mjs:114
+request()@resource://services-common/hawkclient.sys.mjs:252
+1697421734697	Services.Common.RESTResponse	DEBUG	Caught exception fetching HTTP status code: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.responseStatus]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get status :: line 616"  data: no] Stack trace: get status()@resource://services-common/rest.sys.mjs:616
+_constructError()@resource://services-common/hawkclient.sys.mjs:115
+request()@resource://services-common/hawkclient.sys.mjs:252
+1697421734697	Services.Common.RESTResponse	DEBUG	Caught exception processing response headers: [Exception... "Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsIHttpChannel.visitResponseHeaders]"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "JS frame :: resource://services-common/rest.sys.mjs :: get headers :: line 663"  data: no] Stack trace: get headers()@resource://services-common/rest.sys.mjs:663
+_constructError()@resource://services-common/hawkclient.sys.mjs:121
+request()@resource://services-common/hawkclient.sys.mjs:252
+1697421734697	FirefoxAccounts	ERROR	error GETing /account/devices?filterIdleDevicesTimestamp=1695607318397: {"error":{},"errorString":"[Exception... \"<no message>\"  nsresult: \"0x805a1f87 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]","message":null,"code":null,"errno":null}
+1697421734698	Sync.Engine.Clients	ERROR	Could not refresh the FxA device list: {"error":{},"errorString":"[Exception... \"<no message>\"  nsresult: \"0x805a1f87 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]","message":null,"code":null,"errno":null}
+1697421734698	Sync.Engine.Clients	DEBUG	Refreshing the known stale clients list
+1697421734699	Sync.Browser	ERROR	Refreshing device list failed.: {"error":{},"errorString":"[Exception... \"<no message>\"  nsresult: \"0x805a1f87 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]","message":null,"code":null,"errno":null}
+1697421734700	Sync.Browser	ERROR	Refreshing device list failed.: {"error":{},"errorString":"[Exception... \"<no message>\"  nsresult: \"0x805a1f87 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]","message":null,"code":null,"errno":null}
+1697421734700	Sync.Browser	ERROR	Refreshing device list failed.: {"error":{},"errorString":"[Exception... \"<no message>\"  nsresult: \"0x805a1f87 (<unknown>)\"  location: \"JS frame :: resource://services-common/rest.sys.mjs :: onStopRequest :: line 479\"  data: no]","message":null,"code":null,"errno":null}
+1697421734702	Sync.Engine.Clients	INFO	Hiding stale client a2aaf653a6544f1cee77888f85aded7f - in known stale clients list
+1697421734702	Sync.Engine.Clients	INFO	Hiding stale client Ll3yVdOoSkAn - in known stale clients list
+1697421734702	Sync.Engine.Clients	INFO	Hiding stale client wH3wajmMnTXf - in known stale clients list
+1697421734703	Sync.Engine.Clients	INFO	Hiding stale client HiI-OuPLLJzL - in known stale clients list
+1697421734703	Sync.Engine.Clients	INFO	Hiding stale client rmvItRzDAINp - in known stale clients list
+1697421734703	Sync.Engine.Clients	INFO	Hiding stale client bNK4Bi6jyexc - in known stale clients list
+1697421734703	Sync.Engine.Clients	INFO	Hiding stale client Vt9xzLaU1KUE - in known stale clients list
+1697421734703	Sync.Engine.Clients	INFO	Hiding stale client Vt9xzLaU1KUE with age 2002242.5900001526
+1697421734703	Sync.Engine.Clients	INFO	Hiding stale client mgvcVr4qYq-5 - in known stale clients list
+1697421734703	Sync.Engine.Clients	INFO	Hiding stale client 0qTKQSX8OBhp - in known stale clients list
+1697421734703	Sync.Engine.Clients	INFO	Hiding stale client 0qTKQSX8OBhp with age 3736903.0700001717
+1697421734703	Sync.Engine.Clients	INFO	Hiding stale client 1VggC7A3ZqJk - in known stale clients list
+1697421734703	Sync.Engine.Clients	INFO	Hiding stale client 2VnV__co-2Yb - in known stale clients list
+1697421734703	Sync.Engine.Clients	INFO	Hiding stale client 39sYk32DgQW9 - in known stale clients list
+1697421734703	Sync.Engine.Clients	INFO	Hiding stale client 39sYk32DgQW9 with age 3736903.0700001717
+1697421734703	Sync.Engine.Clients	INFO	Hiding stale client 4TR92hGcaxIt - in known stale clients list
+1697421734703	Sync.Engine.Clients	INFO	Hiding stale client 4TR92hGcaxIt with age 3736903.0700001717
+1697421734703	Sync.Engine.Clients	INFO	Hiding stale client 4urAVff7Vay8 - in known stale clients list
+1697421734703	Sync.Engine.Clients	INFO	Hiding stale client 4urAVff7Vay8 with age 3736903.0700001717
+1697421734703	Sync.Engine.Clients	INFO	Hiding stale client 6257616cfc3086741f2000b3edd4f6c4 - in known stale clients list
+1697421734703	Sync.Engine.Clients	INFO	Hiding stale client 8qYGRyIshqgA - in known stale clients list
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client 8qYGRyIshqgA with age 3736903.0700001717
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client 9fMhiB-EL36M - in known stale clients list
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client A2qOKEgGAPWd - in known stale clients list
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client A2qOKEgGAPWd with age 3736903.0700001717
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client Au8Dgp_-qInP - in known stale clients list
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client Au8Dgp_-qInP with age 3736903.0700001717
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client BLLg5JjDVNDS - in known stale clients list
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client BLLg5JjDVNDS with age 3736903.0700001717
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client D2lrT-xTFff0 - in known stale clients list
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client D2lrT-xTFff0 with age 3736903.0700001717
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client FFa-rniB3GYj - in known stale clients list
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client FFa-rniB3GYj with age 3736903.0700001717
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client H0ro6goNCH5T - in known stale clients list
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client H0ro6goNCH5T with age 3736903.0700001717
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client HDENZCgxL638 - in known stale clients list
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client IzF-YC1zQSIo - in known stale clients list
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client IzF-YC1zQSIo with age 3736903.0700001717
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client L9nP91PXlv7m - in known stale clients list
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client L9nP91PXlv7m with age 3736903.0700001717
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client M1Vbb43sEFPK - in known stale clients list
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client M1Vbb43sEFPK with age 3736903.0700001717
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client M89pc8iuHLSo - in known stale clients list
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client M89pc8iuHLSo with age 3736903.0700001717
+1697421734704	Sync.Engine.Clients	INFO	Hiding stale client MHXe-dgz0FoW - in known stale clients list
+1697421734705	Sync.Engine.Clients	INFO	Hiding stale client MHXe-dgz0FoW with age 3736903.0700001717
+1697421734705	Sync.Engine.Clients	INFO	Hiding stale client NR9DW-CwSqID - in known stale clients list
+1697421734705	Sync.Engine.Clients	INFO	Hiding stale client NR9DW-CwSqID with age 3736903.0700001717
+1697421734705	Sync.Engine.Clients	INFO	Hiding stale client P7ZF3UM4IT5P - in known stale clients list
+1697421734705	Sync.Engine.Clients	INFO	Hiding stale client P7ZF3UM4IT5P with age 3736903.0700001717
+1697421734705	Sync.Engine.Clients	INFO	Hiding stale client Pwb7BRJng6a9 - in known stale clients list
+1697421734705	Sync.Engine.Clients	INFO	Hiding stale client Pwb7BRJng6a9 with age 3736903.0700001717
+1697421734705	Sync.Engine.Clients	INFO	Hiding stale client Pxd3BNmU_rQR - in known stale clients list
+1697421734705	Sync.Engine.Clients	INFO	Hiding stale client Pxd3BNmU_rQR with age 3736903.0700001717
+1697421734705	Sync.Engine.Clients	INFO	Hiding stale client Q9Tah5vzJzoN - in known stale clients list
+1697421734706	Sync.Engine.Clients	INFO	Hiding stale client Q9Tah5vzJzoN with age 3736903.0700001717
+1697421734706	Sync.Engine.Clients	INFO	Hiding stale client Ra1eEIpHGqrp - in known stale clients list
+1697421734706	Sync.Engine.Clients	INFO	Hiding stale client Ra1eEIpHGqrp with age 3736903.0700001717
+1697421734706	Sync.Engine.Clients	INFO	Hiding stale client Rv6I1qcSxMlP - in known stale clients list
+1697421734706	Sync.Engine.Clients	INFO	Hiding stale client Rv6I1qcSxMlP with age 3736903.0700001717
+1697421734706	Sync.Engine.Clients	INFO	Hiding stale client UEi2sAlqjeDh - in known stale clients list
+1697421734706	Sync.Engine.Clients	INFO	Hiding stale client UEi2sAlqjeDh with age 3736903.0700001717
+1697421734706	Sync.Engine.Clients	INFO	Hiding stale client V6lgW_AVRMM7 - in known stale clients list
+1697421734706	Sync.Engine.Clients	INFO	Hiding stale client V9X32L90QLKo - in known stale clients list
+1697421734706	Sync.Engine.Clients	INFO	Hiding stale client V9X32L90QLKo with age 3736903.0700001717
+1697421734706	Sync.Engine.Clients	INFO	Hiding stale client Wi2xhuVj67Jb - in known stale clients list
+1697421734706	Sync.Engine.Clients	INFO	Hiding stale client YgrHa4ZIIGAK - in known stale clients list
+1697421734706	Sync.Engine.Clients	INFO	Hiding stale client YgrHa4ZIIGAK with age 3736903.0700001717
+1697421734707	Sync.Engine.Clients	INFO	Hiding stale client a963fef8cff6e93924ca7d5c1c4161e8 - in known stale clients list
+1697421734707	Sync.Engine.Clients	INFO	Hiding stale client a963fef8cff6e93924ca7d5c1c4161e8 with age 3736903.0700001717
+1697421734707	Sync.Engine.Clients	INFO	Hiding stale client bcde9276513c2764edb822ed1ea6be21 - in known stale clients list
+1697421734707	Sync.Engine.Clients	INFO	Hiding stale client d60FHlHpk3Ou - in known stale clients list
+1697421734707	Sync.Engine.Clients	INFO	Hiding stale client enjWTJuU4dy1 - in known stale clients list
+1697421734707	Sync.Engine.Clients	INFO	Hiding stale client enjWTJuU4dy1 with age 3736903.0700001717
+1697421734707	Sync.Engine.Clients	INFO	Hiding stale client f5mV9m4_WhkV - in known stale clients list
+1697421734707	Sync.Engine.Clients	INFO	Hiding stale client f5mV9m4_WhkV with age 3736903.0700001717
+1697421734707	Sync.Engine.Clients	INFO	Hiding stale client inK0rCQnhGtM - in known stale clients list
+1697421734707	Sync.Engine.Clients	INFO	Hiding stale client inK0rCQnhGtM with age 3736903.0700001717
+1697421734707	Sync.Engine.Clients	INFO	Hiding stale client k3KL0FuR0bNN - in known stale clients list
+1697421734707	Sync.Engine.Clients	INFO	Hiding stale client ndLlfk2aV4IF - in known stale clients list
+1697421734707	Sync.Engine.Clients	INFO	Hiding stale client ndLlfk2aV4IF with age 3736903.0700001717
+1697421734707	Sync.Engine.Clients	INFO	Hiding stale client ndcHTewkzhBy - in known stale clients list
+1697421734707	Sync.Engine.Clients	INFO	Hiding stale client ndcHTewkzhBy with age 3736903.0700001717
+1697421734707	Sync.Engine.Clients	INFO	Hiding stale client oH61V_dW8q3C - in known stale clients list
+1697421734707	Sync.Engine.Clients	INFO	Hiding stale client oj5Ltv_fMscw - in known stale clients list
+1697421734707	Sync.Engine.Clients	INFO	Hiding stale client oj5Ltv_fMscw with age 3736903.0700001717
+1697421734707	Sync.Engine.Clients	INFO	Hiding stale client sHvvOTN1p1HC - in known stale clients list
+1697421734707	Sync.Engine.Clients	INFO	Hiding stale client sHvvOTN1p1HC with age 3736903.0700001717
+1697421734707	Sync.Engine.Clients	INFO	Hiding stale client tFFnDgO1mTRb - in known stale clients list
+1697421734707	Sync.Engine.Clients	INFO	Hiding stale client tFFnDgO1mTRb with age 3736903.0700001717
+1697421734708	Sync.Engine.Clients	INFO	Hiding stale client w67XOoThsUbb - in known stale clients list
+1697421734708	Sync.Engine.Clients	INFO	Hiding stale client w67XOoThsUbb with age 3736903.0700001717
+1697421734708	Sync.Engine.Clients	INFO	Hiding stale client wVLMHgCj5Blt - in known stale clients list
+1697421734708	Sync.Engine.Clients	INFO	Hiding stale client wVLMHgCj5Blt with age 3736903.0700001717
+1697421734708	Sync.Engine.Clients	INFO	Hiding stale client xHSzI0CDjb5l - in known stale clients list
+1697421734708	Sync.Engine.Clients	INFO	Hiding stale client yUcc3ywpiqsd - in known stale clients list
+1697421734708	Sync.Engine.Clients	INFO	Hiding stale client yUcc3ywpiqsd with age 3736903.0700001717
+1697421734709	Sync.Engine.Clients	INFO	Uploading 1 outgoing records
+1697421734714	Sync.Engine.Clients	INFO	Posting 1 records of 550 bytes with batch=true
+1697421734714	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1697421734716	Sync.Collection	DEBUG	POST Length: 550
+1697421737229	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200047465/storage/clients?batch=true&commit=true
+1697421737237	Sync.SyncScheduler	DEBUG	Client count: 0 -> 1
+1697421737239	Sync.Synchronizer	INFO	Updating enabled engines: 1 clients.
+1697421737241	Sync.Synchronizer	INFO	Syncing all enabled engines.
+1697421737243	Sync.Engine.Prefs	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1697421737244	Sync.Engine.Prefs	INFO	Uploading 0 outgoing records
+1697421737284	Sync.Engine.Passwords	INFO	Records: 0 applied, 0 successfully, 0 failed to apply, 0 newly failed to apply, 0 reconciled.
+1697421737285	Sync.Engine.Passwords	INFO	Uploading 0 outgoing records
+1697421737518	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1697421737747	Sync.Engine.Tabs	INFO	Can't do a quick-write as another tab sync is in progress
+1697421741125	Sync.Collection	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200047465/storage/tabs?full=1&limit=1000 failed: [Exception... "The connection was established, but no data was ever received"  nsresult: "0x804b0014 (NS_ERROR_NET_RESET)"  location: "<unknown>"  data: no] No traceback available
+1697421741127	Sync.Status	DEBUG	Status.sync: success.sync => error.login.reason.network
+1697421741127	Sync.Status	DEBUG	Status.service: success.status_ok => error.sync.failed
+1697421741127	Sync.Status	DEBUG	Status for engine tabs: error.engine.reason.unknown_fail
+1697421741127	Sync.Status	DEBUG	Status.service: error.sync.failed => error.sync.failed_partial
+1697421741127	Sync.ErrorHandler	DEBUG	tabs failed: [Exception... "The connection was established, but no data was ever received"  nsresult: "0x804b0014 (NS_ERROR_NET_RESET)"  location: "<unknown>"  data: no] No traceback available
+1697421741143	Sync.Engine.Bookmarks.BookmarkSyncUtils	DEBUG	pushChanges: Processed change records: {"weak":0,"skipped":0,"updated":0}
+1697421741144	Sync.Status	DEBUG	Status for engine bookmarks: error.engine.reason.unknown_fail
+1697421741144	Sync.Status	DEBUG	Status.service: error.sync.failed_partial => error.sync.failed_partial
+1697421741144	Sync.ErrorHandler	DEBUG	bookmarks was interrupted due to the application shutting down
+1697421741144	Sync.Synchronizer	INFO	bookmarks was interrupted by shutdown; no other engines will sync
+1697421741144	Sync.Synchronizer	INFO	Aborting sync for failure in bookmarks
+1697421741149	Sync.Doctor	INFO	Skipping consultation: telemetry reporting is disabled
+1697421741151	Sync.Synchronizer	INFO	Sync completed at 2023-10-15 23:02:21 after 17.56 secs.
+1697421741152	Sync.Declined	DEBUG	Handling remote declined: []
+1697421741152	Sync.Declined	DEBUG	Handling local declined: []
+1697421741152	Sync.Declined	DEBUG	Declined changed? false
+1697421741152	Sync.Service	INFO	No change to declined engines. Not reuploading meta/global.
+1697421741152	Sync.ErrorHandler	ERROR	Some engines did not sync correctly.
+1697421741154	Sync.SyncScheduler	DEBUG	Next sync in 3600000 ms. (why=schedule)
