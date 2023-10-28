@@ -10,10 +10,7 @@ My first attempt at making a decent rice in NixOS with the Hyprland WM, don't ex
 <summary>
 Desktop
 </summary>
-  
-<a href="https://github.com/AligatorRicardo/nixos-dotfiles/blob/main/desktop.png">
   <img src="https://github.com/AligatorRicardo/nixos-dotfiles/blob/main/desktop.png" alt="My desktop">
-</a>
 </details>
 
 # 💾 Acknowledgements
