@@ -11,8 +11,8 @@ My first attempt at making a decent rice in NixOS with the Hyprland WM, don't ex
 Desktop
 </summary>
   
-<a href="">
-  <img src="" alt="My desktop">
+<a href="https://github.com/AligatorRicardo/nixos-dotfiles/blob/main/desktop.png">
+  <img src="https://github.com/AligatorRicardo/nixos-dotfiles/blob/main/desktop.png" alt="My desktop">
 </a>
 </details>
 
