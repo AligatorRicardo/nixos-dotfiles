@@ -33,6 +33,7 @@
     pkgs.rclone
     pkgs.cava
     pkgs.standardnotes
+    pkgs.github-desktop
     # System libraries and basic components
     pkgs.wl-clipboard
     pkgs.wl-clip-persist
