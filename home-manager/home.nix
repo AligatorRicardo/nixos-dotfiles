@@ -1,3 +1,4 @@
+
 { config, pkgs, catppuccinifier, ... }:
 
 {
@@ -14,8 +15,9 @@
   # Defines files to annex to home.nix
   imports = [
     ./confs/hyprland.nix
+    ./confs/theming.nix  
     ./confs/zsh.nix
-    ./confs/theming.nix
+    ./confs/git.nix
   ];
 
   # Allows you to install Nix packages into your environment.
@@ -34,11 +36,11 @@
     pkgs.cava
     pkgs.standardnotes
     pkgs.github-desktop
+    pkgs.libsecret
     # System libraries and basic components
     pkgs.wl-clipboard
     pkgs.wl-clip-persist
     pkgs.cliphist
-    pkgs.gitFull
     pkgs.feh
     pkgs.grim
     pkgs.slurp
