@@ -36,7 +36,6 @@
     pkgs.cava
     pkgs.standardnotes
     pkgs.github-desktop
-    pkgs.libsecret
     # System libraries and basic components
     pkgs.wl-clipboard
     pkgs.wl-clip-persist
@@ -62,6 +61,7 @@
     pkgs.mpd
     pkgs.pw-viz
     pkgs.libinput
+    pkgs.libsecret
     pkgs.neofetch
     # Fonts
     pkgs.nerdfonts

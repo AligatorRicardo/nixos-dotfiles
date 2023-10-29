@@ -175,17 +175,13 @@ bind = $mainMod, mouse_up, workspace, e-1
 bindm = $mainMod, mouse:272, movewindow
 bindm = $mainMod, mouse:273, resizewindow
 
-# Brightness Control keys
-#bind = $mainMod,F2,exec,brightnessctl set 10%-
-#bind = $mainMod,F3,exec,brightnessctl set 10%+
-
-# Volume Control keys
+# Defines brightness and volume control keys + screenshots.
+bind = , XF86MonBrightnessDown, exec,brightnessctl set 10%-
+bind = , XF86MonBrightnessUp, exec,brightnessctl set 10%+
 bind = , XF86AudioRaiseVolume, exec, pamixer -i 5 
 bind = , XF86AudioLowerVolume, exec, pamixer -d 5 
-#bind = , XF86AudioMicMute, exec, pamixer --default-source -m
 bind = , XF86AudioMute, exec, pamixer -t
 bind = , Print, exec, grim -g "$(slurp)"
-
 '';
 
   xdg.configFile."hypr/hyprpaper.conf".source = ./hyprpaper.conf;
