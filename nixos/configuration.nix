@@ -43,7 +43,7 @@
 
   # Enables Graphical stack (X.org/Wayland + SDDM + Hyprland WM)
   services.xserver.enable = true;
-  services.server.libinput.enable = true;
+  services.xserver.libinput.enable = true;
   services.xserver.displayManager.sddm = {
       enable = true;
       theme = "${import ./sddm-theme.nix {inherit pkgs; }}";

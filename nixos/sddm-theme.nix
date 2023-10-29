@@ -1,5 +1,11 @@
 { pkgs }:
-
+let
+  imgLink = "https://raw.githubusercontent.com/AligatorRicardo/nixos-dotfiles/main/Mocha-hald8-sddm-background.jpg.jpg";
+  image = pkgs.fetchurl {
+    url = imgLink;
+    sha256 = "sha256-CGfJQN5O+PdgTI2tgP5Kk3bPIgAVNx0HPfvMJkIEccc=";
+  };
+in
 pkgs.stdenv.mkDerivation {
   name = "sddm-theme";
   src = pkgs.fetchFromGitHub {
@@ -12,5 +18,7 @@ pkgs.stdenv.mkDerivation {
     mkdir -p $out
     cp -R ./* $out/
     cd $out/
-   '';
+    rm background.jpg
+    cp -r ${image} $out/background.jpg
+    '';
 }
