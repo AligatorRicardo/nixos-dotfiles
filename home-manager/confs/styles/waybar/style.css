@@ -268,7 +268,7 @@ window#waybar {
 #temperature {
     color: @teal;
     /* border-bottom: 2px solid @teal; */
-    border-radius: 10px 0 0 10px;
+    border-radius: 5px 0 0 5px;
 }
 
 #temperature.critical {

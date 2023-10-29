@@ -63,6 +63,7 @@
     pkgs.libinput
     pkgs.libsecret
     pkgs.neofetch
+    pkgs.nwg-launchers
     # Fonts
     pkgs.nerdfonts
     pkgs.font-awesome
