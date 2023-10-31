@@ -31,7 +31,7 @@ exec-once = swaync
 exec-once = udiskie
 
 # Executes NWG Dock (Plank-like but for wayland).
-#exec-once = nwg-dock-hyprland
+exec-once = nwg-dock-hyprland -d
 
 # Some default env vars.
 env = XCURSOR_SIZE,24

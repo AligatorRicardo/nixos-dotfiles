@@ -1,0 +1,32 @@
+[Default Applications]
+x-scheme-handler/http=librewolf.desktop
+x-scheme-handler/https=librewolf.desktop
+x-scheme-handler/about=librewolf.desktop
+x-scheme-handler/unknown=librewolf.desktop
+application/terminal=kitty.desktop
+application/x-msi=com.usebottles.bottles.desktop
+application/x-ms-dos-executable=com.usebottles.bottles.desktop
+image/x-portable-anymap=feh.desktop
+image/bmp=feh.desktop
+image/jpeg=feh.desktop
+image/tiff=feh.desktop
+image/x-xbitmap=feh.desktop
+image/vnd.zbrush.pcx=feh.desktop
+image/heif=feh.desktop
+image/webp=feh.desktop
+image/png=feh.desktop
+image/gif=feh.desktop
+image/x-tga=feh.desktop
+x-content/unix-software=nemo-autorun-software.desktop
+application/x-gnome-saved-search=nemo.desktop
+application/json=io.gitlab.librewolf-community.desktop
+application/x-wwf=io.gitlab.librewolf-community.desktop
+application/xhtml+xml=io.gitlab.librewolf-community.desktop
+application/x-xpinstall=io.gitlab.librewolf-community.desktop
+application/x-fictionbook+xml=io.gitlab.librewolf-community.desktop
+application/pdf=io.gitlab.librewolf-community.desktop
+application/x-zerosize=org.xfce.mousepad.desktop
+text/plain=org.xfce.mousepad.desktop
+
+[Added Associations]
+text/plain=org.xfce.mousepad.desktop;

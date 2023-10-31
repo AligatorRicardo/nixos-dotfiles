@@ -1,4 +1,3 @@
-
 { config, pkgs, catppuccinifier, ... }:
 
 {
@@ -63,7 +62,7 @@
     pkgs.libinput
     pkgs.libsecret
     pkgs.neofetch
-    pkgs.nwg-launchers
+    pkgs.selectdefaultapplication
     # Fonts
     pkgs.nerdfonts
     pkgs.font-awesome
@@ -105,6 +104,12 @@
 
   # Imports a basic Neofetch configuration
   xdg.configFile."neofetch/config.conf".source = ./confs/neofetch.config;
+
+  # Imports a basic default apps configuration
+  xdg.configFile."mimeapps.list".source = ./confs/defaultapps.list;
+
+  # Imports a basic NWG Dock configuration
+  xdg.configFile."nwg-dock-hyprland/style.css".source = ./confs/nwg-dock.css;
 
   # You can also manage environment variables but you will have to manually
   # source: ~/.nix-profile/etc/profile.d/hm-session-vars
