@@ -9,5 +9,4 @@ ln -s .nix-profile/share/themes .themes
 ln -s .nix-profile/share/icons  .icons
 sudo flatpak override --filesystem=$HOME/.themes
 sudo flatpak override --env=GTK_THEME="Catppuccin-Mocha-Standard-Mauve-Dark"
-
-# TODO: QT Theming
+-# TODO: QT Theming
