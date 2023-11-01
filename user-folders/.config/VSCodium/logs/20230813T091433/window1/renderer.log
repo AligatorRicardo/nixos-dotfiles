@@ -1,0 +1,54 @@
+2023-08-13 09:14:40.140 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'quickPickItemIcon' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-08-13 09:14:42.586 [error] Extension 'github.vscode-pull-request-github' wants API proposal 'quickPickItemIcon' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-08-13 09:14:51.057 [info] [perf] Render performance baseline is 198ms
+2023-08-13 09:56:01.374 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-08-13 10:24:48.046 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'github.vscode-pull-request-github' wants API proposal 'quickPickItemIcon' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-08-13 10:24:49.100 [error] Extension 'github.vscode-pull-request-github' wants API proposal 'quickPickItemIcon' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2023-08-13 10:24:54.372 [info] [perf] Render performance baseline is 174ms
+2023-08-13 10:29:25.546 [info] UNRESPONSIVE extension host: starting to profile NOW
+2023-08-13 10:29:30.623 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2023-08-13 10:29:34.674 [warning] UNRESPONSIVE extension host: 'yandeu.five-server' took 23.899735253684835% of 1225.832ms, saved PROFILE here: 'file:///tmp/exthost-ee83fa.cpuprofile'
+2023-08-13 10:36:12.396 [error] Cannot read properties of undefined (reading 'start'): TypeError: Cannot read properties of undefined (reading 'start')
+	at t.$Xd.b (/usr/share/vscodium/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:130006)
+	at t.$Xd.provideCompletionItems (/usr/share/vscodium/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:128593)
+	at ce.provideCompletionItems (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:60746)
+	at /usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:85821
+	at ue._withAdapter (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:75620)
+	at ue.$provideCompletionItems (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:85796)
+	at t._doInvokeHandler (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:10566)
+	at t._invokeHandler (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:10248)
+	at t._receiveRequest (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:8954)
+	at t._receiveOneMessage (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7705)
+	at r.value (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:5812)
+	at f._deliver (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2465)
+	at f.fire (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2784)
+	at S.fire (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:79:16595)
+	at r.value (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:36608)
+	at f._deliver (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2465)
+	at f.fire (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2784)
+	at S.fire (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:79:16595)
+	at MessagePortMain.<anonymous> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:34685)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367)
+2023-08-13 10:36:13.566 [error] Cannot read properties of undefined (reading 'start'): TypeError: Cannot read properties of undefined (reading 'start')
+	at t.$Xd.b (/usr/share/vscodium/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:130006)
+	at t.$Xd.provideCompletionItems (/usr/share/vscodium/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:128593)
+	at ce.provideCompletionItems (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:60746)
+	at /usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:85821
+	at ue._withAdapter (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:75620)
+	at ue.$provideCompletionItems (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:85796)
+	at t._doInvokeHandler (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:10566)
+	at t._invokeHandler (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:10248)
+	at t._receiveRequest (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:8954)
+	at t._receiveOneMessage (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7705)
+	at r.value (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:5812)
+	at f._deliver (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2465)
+	at f.fire (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2784)
+	at S.fire (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:79:16595)
+	at r.value (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:36608)
+	at f._deliver (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2465)
+	at f.fire (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2784)
+	at S.fire (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:79:16595)
+	at MessagePortMain.<anonymous> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:34685)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367)

@@ -1,0 +1,23 @@
+2023-11-01 17:27:32.898 [info] Getting Manifest... catppuccin.catppuccin-vsc
+2023-11-01 17:27:32.910 [info] Getting Manifest... rust-lang.rust-analyzer
+2023-11-01 17:27:34.523 [info] Installing extension: catppuccin.catppuccin-vsc
+2023-11-01 17:27:34.987 [info] Installing extension: rust-lang.rust-analyzer
+2023-11-01 17:27:37.704 [info] Extension signature verification is not done: catppuccin.catppuccin-vsc
+2023-11-01 17:27:37.990 [info] Extracted extension to file:///home/theloremaster/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.6.0-universal: catppuccin.catppuccin-vsc
+2023-11-01 17:27:38.105 [info] Renamed to /home/theloremaster/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.6.0-universal
+2023-11-01 17:27:38.113 [info] Extracting extension completed. catppuccin.catppuccin-vsc
+2023-11-01 17:27:38.355 [info] Extension installed successfully: catppuccin.catppuccin-vsc
+2023-11-01 17:27:38.481 [info] Marked extension as uninstalled catppuccin.catppuccin-vsc-3.4.0-universal
+2023-11-01 17:27:46.489 [info] Extension signature verification is not done: rust-lang.rust-analyzer
+2023-11-01 17:27:47.766 [info] Extracted extension to file:///home/theloremaster/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1713-linux-x64: rust-lang.rust-analyzer
+2023-11-01 17:27:47.868 [info] Renamed to /home/theloremaster/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1713-linux-x64
+2023-11-01 17:27:47.874 [info] Extracting extension completed. rust-lang.rust-analyzer
+2023-11-01 17:27:47.953 [info] Extension installed successfully: rust-lang.rust-analyzer
+2023-11-01 17:27:47.978 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/theloremaster/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/theloremaster/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36019)
+    at i (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36159)
+    at t.toFileSystemProviderError (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47264)
+    at t.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:37859)
+    at async p.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20678)
+    at async K.onDidFilesChange (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12660)
+2023-11-01 17:27:47.999 [info] Marked extension as uninstalled rust-lang.rust-analyzer-0.3.1705-linux-x64

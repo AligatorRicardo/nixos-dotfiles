@@ -1,0 +1,82 @@
+2023-10-29 20:17:06.558 [info] Extension host with pid 42570 started
+2023-10-29 20:17:06.559 [info] Skipping acquiring lock for /home/theloremaster/.config/VSCodium/User/workspaceStorage/b261960a8f816cd9139b018d0206f460.
+2023-10-29 20:17:10.584 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-10-29 20:17:10.591 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-10-29 20:17:11.380 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-10-29 20:17:11.389 [info] ExtensionService#_doActivateExtension hbenl.test-adapter-converter, startup: true, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+2023-10-29 20:17:11.529 [info] ExtensionService#_doActivateExtension kamikillerto.vscode-colorize, startup: true, activationEvent: '*'
+2023-10-29 20:17:15.875 [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: true, activationEvent: '*'
+2023-10-29 20:17:18.357 [info] ExtensionService#_doActivateExtension Swellaby.vscode-rust-test-adapter, startup: true, activationEvent: '*'
+2023-10-29 20:17:18.379 [error] Activating extension Swellaby.vscode-rust-test-adapter failed due to an error:
+2023-10-29 20:17:18.379 [error] Error: Cannot find module '/home/theloremaster/.vscode-oss/extensions/swellaby.vscode-rust-test-adapter-0.11.1-universal/src/main.js'
+Require stack:
+- /usr/share/codium/resources/app/out/vs/loader.js
+- /usr/share/codium/resources/app/out/bootstrap-amd.js
+- /usr/share/codium/resources/app/out/bootstrap-fork.js
+- 
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1082:15)
+	at o._resolveFilename (node:electron/js2c/utility_init:2:3040)
+	at Module._load (node:internal/modules/cjs/loader:927:27)
+	at f._load (node:electron/js2c/asar_bundle:2:13377)
+	at l._load (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:6980)
+	at c._load (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:35841)
+	at t._load (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:45340)
+	at Module.require (node:internal/modules/cjs/loader:1148:19)
+	at require (node:internal/modules/cjs/helpers:110:18)
+	at Function.i [as __$__nodeRequire] (/usr/share/codium/resources/app/out/vs/loader.js:5:98)
+	at s._loadCommonJSModule (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:37468)
+	at async Promise.all (index 0)
+2023-10-29 20:17:18.412 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-10-29 20:17:18.420 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-10-29 20:17:19.882 [info] Eager extensions activated
+2023-10-29 20:17:20.230 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-10-29 20:17:20.238 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-10-29 20:17:20.241 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2023-10-29 20:17:20.368 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2023-10-29 20:17:20.372 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-10-29 20:17:20.778 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2023-10-29 20:17:22.504 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2023-10-29 20:17:22.508 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-10-29 20:17:22.511 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-10-29 20:17:22.633 [error] Failed to load translations for GitHub.vscode-pull-request-github from file:///home/theloremaster/.vscode-oss/extensions/github.vscode-pull-request-github-0.74.1-universal/dist/browser/extension/bundle.l10n.pt-br.json: Não é possível ler o arquivo '/home/theloremaster/.vscode-oss/extensions/github.vscode-pull-request-github-0.74.1-universal/dist/browser/extension/bundle.l10n.pt-br.json' (Error: Não é possível resolver o arquivo inexistente '/home/theloremaster/.vscode-oss/extensions/github.vscode-pull-request-github-0.74.1-universal/dist/browser/extension/bundle.l10n.pt-br.json')
+2023-10-29 20:17:23.035 [warning] Using default string since no string found in i18n bundle that has the key: Try again?
+2023-10-29 20:17:23.035 [warning] Using default string since no string found in i18n bundle that has the key: Cancel
+2023-10-29 20:17:23.035 [warning] Using default string since no string found in i18n bundle that has the key: Sign In
+2023-10-29 20:17:23.035 [warning] Using default string since no string found in i18n bundle that has the key: Don't Show Again
+2023-10-29 20:17:23.035 [warning] Using default string since no string found in i18n bundle that has the key: prompt for sign in
+2023-10-29 20:17:23.036 [warning] Using default string since no string found in i18n bundle that has the key: Assignees:
+2023-10-29 20:17:23.042 [warning] Using default string since no string found in i18n bundle that has the key: Labels:
+2023-10-29 20:17:23.059 [warning] Using default string since no string found in i18n bundle that has the key: Commit Staged
+2023-10-29 20:17:23.059 [warning] Using default string since no string found in i18n bundle that has the key: Commit All
+2023-10-29 20:17:23.060 [warning] Using default string since no string found in i18n bundle that has the key: My Issues
+2023-10-29 20:17:26.544 [warning] Using default string since no string found in i18n bundle that has the key: Cannot edit this pull request file. [Check out](command:pr.checkoutFromReadonlyFile) this pull request to edit.
+2023-10-29 20:17:27.446 [warning] Using default string since no string found in i18n bundle that has the key: Copy github.dev Link
+2023-10-29 20:17:27.446 [warning] Using default string since no string found in i18n bundle that has the key: Copy GitHub Permalink
+2023-10-29 20:17:27.446 [warning] Using default string since no string found in i18n bundle that has the key: Copy GitHub Permalink as Markdown
+2023-10-29 20:17:27.446 [warning] Using default string since no string found in i18n bundle that has the key: Copy GitHub HEAD Link
+2023-10-29 20:18:25.933 [info] Extension host terminating: renderer closed the MessagePort
+2023-10-29 20:18:26.076 [error] Canceled: Canceled
+	at new d (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:64080)
+	at i._remoteCall (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:13779)
+	at L.<computed>.U.charCodeAt.L.<computed> (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:134:10331)
+	at n._doExecuteCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:96332)
+	at n.executeCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:95657)
+	at E.registerCommand.description (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:94898)
+	at n._executeContributedCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:96967)
+	at n._doExecuteCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:95790)
+	at n.executeCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:125:95657)
+	at Object.executeCommand (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:27475)
+	at c0.reset (/home/theloremaster/.vscode-oss/extensions/github.vscode-pull-request-github-0.74.1-universal/dist/extension.js:1805:3944)
+	at c0.dispose (/home/theloremaster/.vscode-oss/extensions/github.vscode-pull-request-github-0.74.1-universal/dist/extension.js:1805:4183)
+	at o (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:30:829)
+	at s._deactivate (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:12852)
+	at /usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10108
+	at Array.map (<anonymous>)
+	at s._deactivateAll (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10096)
+	at s.terminate (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:136:10476)
+	at o.terminate (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:140:1908)
+	at u (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:11535)
+	at MessagePortMain.<anonymous> (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:7610)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-10-29 20:18:26.098 [info] Extension host with pid 42570 exiting with code 0

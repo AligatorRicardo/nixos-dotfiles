@@ -10,7 +10,7 @@ programs.zsh = {
  oh-my-zsh = {
     enable = true;
     plugins = [ "git" ];
-    theme = "gentoo";
+    theme = "alanpeabody";
   };
 };
 

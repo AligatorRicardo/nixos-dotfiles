@@ -1,0 +1,15 @@
+Initial changes
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch firefox-gnome-catppuccin-theme
+# Changes to be committed:
+#	modified:   README.md
+#	deleted:    scripts/auto-install.sh
+#	deleted:    scripts/install-by-curl.sh
+#	deleted:    scripts/install.sh
+#	deleted:    theme/colors/dark-maia.css
+#	modified:   theme/colors/dark.css
+#	deleted:    theme/colors/light-maia.css
+#	modified:   theme/colors/light.css
+#

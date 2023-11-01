@@ -1,0 +1,27 @@
+2023-10-29 13:48:57.758 [info] Deleted uninstalled extension from disk catppuccin.catppuccin-vsc /home/theloremaster/.vscode-oss/extensions/catppuccin.catppuccin-vsc-2.7.0-universal
+2023-10-29 13:48:57.975 [error] Error: Não é possível resolver o arquivo inexistente '/home/theloremaster/.vscode-oss/extensions/catppuccin.catppuccin-vsc-2.7.0-universal.4fe0b760.vsctmp'
+    at p.resolve (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:19056)
+    at async V.toLocalExtension (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:20504)
+    at async V.scanUserExtensionAtLocation (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:15377)
+    at async K.onDidFilesChange (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12721)
+2023-10-29 13:48:58.010 [info] Deleted uninstalled extension from disk serayuzgur.crates /home/theloremaster/.vscode-oss/extensions/serayuzgur.crates-0.5.11-universal
+2023-10-29 13:48:58.201 [info] Deleted uninstalled extension from disk ms-ceintl.vscode-language-pack-pt-br /home/theloremaster/.vscode-oss/extensions/ms-ceintl.vscode-language-pack-pt-br-1.81.0-universal
+2023-10-29 13:48:58.228 [info] Deleted uninstalled extension from disk vscode-icons-team.vscode-icons /home/theloremaster/.vscode-oss/extensions/vscode-icons-team.vscode-icons-12.5.0-universal
+2023-10-29 13:48:58.485 [info] Deleted uninstalled extension from disk github.vscode-pull-request-github /home/theloremaster/.vscode-oss/extensions/github.vscode-pull-request-github-0.68.0-universal
+2023-10-29 13:48:58.521 [info] Deleted uninstalled extension from disk rust-lang.rust-analyzer /home/theloremaster/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1615-linux-x64
+2023-10-29 13:48:58.670 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/theloremaster/.vscode-oss/extensions/ms-ceintl.vscode-language-pack-pt-br-1.81.0-universal.-1a15cea6.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/theloremaster/.vscode-oss/extensions/ms-ceintl.vscode-language-pack-pt-br-1.81.0-universal.-1a15cea6.vsctmp'
+    at s.create (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36019)
+    at i (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36159)
+    at t.toFileSystemProviderError (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47264)
+    at t.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:37859)
+    at async p.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20678)
+    at async K.onDidFilesChange (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12660)
+2023-10-29 13:48:58.671 [info] Deleted uninstalled extension from disk catppuccin.catppuccin-vsc-icons /home/theloremaster/.vscode-oss/extensions/catppuccin.catppuccin-vsc-icons-0.26.0-universal
+2023-10-29 13:49:01.389 [info] Getting Manifest... catppuccin.catppuccin-vsc-icons
+2023-10-29 13:49:03.276 [info] Installing extension: catppuccin.catppuccin-vsc-icons
+2023-10-29 13:49:10.239 [info] Extension signature verification is not done: catppuccin.catppuccin-vsc-icons
+2023-10-29 13:49:13.479 [info] Extracted extension to file:///home/theloremaster/.vscode-oss/extensions/catppuccin.catppuccin-vsc-icons-0.30.0-universal: catppuccin.catppuccin-vsc-icons
+2023-10-29 13:49:13.723 [info] Renamed to /home/theloremaster/.vscode-oss/extensions/catppuccin.catppuccin-vsc-icons-0.30.0-universal
+2023-10-29 13:49:13.728 [info] Extracting extension completed. catppuccin.catppuccin-vsc-icons
+2023-10-29 13:49:14.620 [info] Extension installed successfully: catppuccin.catppuccin-vsc-icons
+2023-10-29 13:49:14.633 [info] Marked extension as uninstalled catppuccin.catppuccin-vsc-icons-0.29.0-universal

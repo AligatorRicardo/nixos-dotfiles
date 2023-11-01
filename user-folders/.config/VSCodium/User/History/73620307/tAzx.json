@@ -1,0 +1,11 @@
+{
+    "workbench.colorTheme": "Catppuccin Mocha",
+    "workbench.iconTheme": "catppuccin-mocha",
+    "editor.minimap.enabled": false,
+    "workbench.sideBar.location": "right",
+    "security.workspace.trust.untrustedFiles": "open",
+    "git.confirmSync": false,
+    "explorer.confirmDelete": false,
+    "git.enableSmartCommit": true,
+    "git.openRepositoryInParentFolders": "always"
+}

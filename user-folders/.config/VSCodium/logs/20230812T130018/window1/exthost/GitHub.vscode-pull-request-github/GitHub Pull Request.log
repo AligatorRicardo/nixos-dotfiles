@@ -1,0 +1,10 @@
+2023-08-12 13:00:45.540 [warning] /home/theloremaster/.ssh/config: ENOENT: no such file or directory, open '/home/theloremaster/.ssh/config'
+2023-08-12 13:00:45.685 [info] Looking for git repository
+2023-08-12 13:00:45.686 [info] Found 0 repositories during activation
+2023-08-12 13:00:45.686 [info] Git repository found, initializing review manager and pr tree view.
+2023-08-12 13:00:45.687 [info] Registering git provider
+2023-08-12 13:12:27.354 [warning] /home/theloremaster/.ssh/config: ENOENT: no such file or directory, open '/home/theloremaster/.ssh/config'
+2023-08-12 13:12:27.354 [info] Looking for git repository
+2023-08-12 13:12:27.354 [info] Found 0 repositories during activation
+2023-08-12 13:12:27.354 [info] Git repository found, initializing review manager and pr tree view.
+2023-08-12 13:12:27.354 [info] Registering git provider

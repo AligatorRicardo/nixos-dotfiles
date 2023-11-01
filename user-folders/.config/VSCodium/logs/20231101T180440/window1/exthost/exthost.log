@@ -1,0 +1,56 @@
+2023-11-01 18:04:52.755 [info] Extension host with pid 11765 started
+2023-11-01 18:04:52.755 [info] Skipping acquiring lock for /home/theloremaster/.config/VSCodium/User/workspaceStorage/b261960a8f816cd9139b018d0206f460.
+2023-11-01 18:04:53.113 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-11-01 18:04:53.115 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-11-01 18:04:54.135 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-11-01 18:04:54.175 [info] ExtensionService#_doActivateExtension hbenl.test-adapter-converter, startup: true, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+2023-11-01 18:04:54.232 [info] ExtensionService#_doActivateExtension kamikillerto.vscode-colorize, startup: true, activationEvent: '*'
+2023-11-01 18:04:54.505 [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: true, activationEvent: '*'
+2023-11-01 18:04:54.836 [info] ExtensionService#_doActivateExtension Swellaby.vscode-rust-test-adapter, startup: true, activationEvent: '*'
+2023-11-01 18:04:54.861 [error] Activating extension Swellaby.vscode-rust-test-adapter failed due to an error:
+2023-11-01 18:04:54.861 [error] Error: Cannot find module '/home/theloremaster/.vscode-oss/extensions/swellaby.vscode-rust-test-adapter-0.11.1-universal/src/main.js'
+Require stack:
+- /usr/share/codium/resources/app/out/vs/loader.js
+- /usr/share/codium/resources/app/out/bootstrap-amd.js
+- /usr/share/codium/resources/app/out/bootstrap-fork.js
+- 
+	at Module._resolveFilename (node:internal/modules/cjs/loader:1082:15)
+	at o._resolveFilename (node:electron/js2c/utility_init:2:3040)
+	at Module._load (node:internal/modules/cjs/loader:927:27)
+	at f._load (node:electron/js2c/asar_bundle:2:13377)
+	at l._load (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:153:6980)
+	at c._load (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:35841)
+	at t._load (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:117:45340)
+	at Module.require (node:internal/modules/cjs/loader:1148:19)
+	at require (node:internal/modules/cjs/helpers:110:18)
+	at Function.i [as __$__nodeRequire] (/usr/share/codium/resources/app/out/vs/loader.js:5:98)
+	at s._loadCommonJSModule (/usr/share/codium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:150:37468)
+	at async Promise.all (index 0)
+2023-11-01 18:04:55.440 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-11-01 18:04:55.443 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-11-01 18:04:55.823 [info] Eager extensions activated
+2023-11-01 18:04:55.974 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-01 18:04:55.976 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-01 18:04:55.978 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2023-11-01 18:04:56.039 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2023-11-01 18:04:56.040 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-11-01 18:04:56.189 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2023-11-01 18:04:58.803 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-11-01 18:04:58.806 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-11-01 18:04:59.389 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2023-11-01 18:04:59.616 [error] Failed to load translations for GitHub.vscode-pull-request-github from file:///home/theloremaster/.vscode-oss/extensions/github.vscode-pull-request-github-0.74.1-universal/dist/browser/extension/bundle.l10n.pt-br.json: Não é possível ler o arquivo '/home/theloremaster/.vscode-oss/extensions/github.vscode-pull-request-github-0.74.1-universal/dist/browser/extension/bundle.l10n.pt-br.json' (Error: Não é possível resolver o arquivo inexistente '/home/theloremaster/.vscode-oss/extensions/github.vscode-pull-request-github-0.74.1-universal/dist/browser/extension/bundle.l10n.pt-br.json')
+2023-11-01 18:04:59.838 [warning] Using default string since no string found in i18n bundle that has the key: Try again?
+2023-11-01 18:04:59.838 [warning] Using default string since no string found in i18n bundle that has the key: Cancel
+2023-11-01 18:04:59.838 [warning] Using default string since no string found in i18n bundle that has the key: Sign In
+2023-11-01 18:04:59.838 [warning] Using default string since no string found in i18n bundle that has the key: Don't Show Again
+2023-11-01 18:04:59.838 [warning] Using default string since no string found in i18n bundle that has the key: prompt for sign in
+2023-11-01 18:04:59.839 [warning] Using default string since no string found in i18n bundle that has the key: Assignees:
+2023-11-01 18:04:59.839 [warning] Using default string since no string found in i18n bundle that has the key: Labels:
+2023-11-01 18:04:59.848 [warning] Using default string since no string found in i18n bundle that has the key: Commit Staged
+2023-11-01 18:04:59.848 [warning] Using default string since no string found in i18n bundle that has the key: Commit All
+2023-11-01 18:04:59.848 [warning] Using default string since no string found in i18n bundle that has the key: My Issues
+2023-11-01 18:05:01.823 [warning] Using default string since no string found in i18n bundle that has the key: Cannot edit this pull request file. [Check out](command:pr.checkoutFromReadonlyFile) this pull request to edit.
+2023-11-01 18:05:01.942 [warning] Using default string since no string found in i18n bundle that has the key: Copy github.dev Link
+2023-11-01 18:05:01.942 [warning] Using default string since no string found in i18n bundle that has the key: Copy GitHub Permalink
+2023-11-01 18:05:01.943 [warning] Using default string since no string found in i18n bundle that has the key: Copy GitHub Permalink as Markdown
+2023-11-01 18:05:01.943 [warning] Using default string since no string found in i18n bundle that has the key: Copy GitHub HEAD Link

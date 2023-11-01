@@ -1,0 +1,100 @@
+2023-10-26 21:20:50.759 [info] Getting Manifest... catppuccin.catppuccin-vsc
+2023-10-26 21:20:50.813 [info] Getting Manifest... catppuccin.catppuccin-vsc-icons
+2023-10-26 21:20:50.820 [info] Getting Manifest... github.vscode-pull-request-github
+2023-10-26 21:20:50.839 [info] Getting Manifest... ms-ceintl.vscode-language-pack-pt-br
+2023-10-26 21:20:50.849 [info] Getting Manifest... rust-lang.rust-analyzer
+2023-10-26 21:20:50.854 [info] Getting Manifest... serayuzgur.crates
+2023-10-26 21:20:50.862 [info] Getting Manifest... vscode-icons-team.vscode-icons
+2023-10-26 21:20:52.779 [info] Installing extension: catppuccin.catppuccin-vsc
+2023-10-26 21:20:52.811 [info] Installing extension: catppuccin.catppuccin-vsc-icons
+2023-10-26 21:20:52.816 [info] Installing extension: ms-ceintl.vscode-language-pack-pt-br
+2023-10-26 21:20:52.834 [info] Installing extension: serayuzgur.crates
+2023-10-26 21:20:52.859 [info] Installing extension: vscode-icons-team.vscode-icons
+2023-10-26 21:20:52.975 [info] Installing extension: github.vscode-pull-request-github
+2023-10-26 21:20:52.996 [info] Installing extension: rust-lang.rust-analyzer
+2023-10-26 21:21:00.442 [info] Extension signature verification is not done: catppuccin.catppuccin-vsc
+2023-10-26 21:21:00.607 [info] Extension signature verification is not done: catppuccin.catppuccin-vsc-icons
+2023-10-26 21:21:00.629 [info] Extracted extension to file:///home/theloremaster/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.4.0-universal: catppuccin.catppuccin-vsc
+2023-10-26 21:21:00.691 [info] Renamed to /home/theloremaster/.vscode-oss/extensions/catppuccin.catppuccin-vsc-3.4.0-universal
+2023-10-26 21:21:00.698 [info] Extracting extension completed. catppuccin.catppuccin-vsc
+2023-10-26 21:21:00.835 [info] Extension installed successfully: catppuccin.catppuccin-vsc
+2023-10-26 21:21:00.852 [info] Marked extension as uninstalled catppuccin.catppuccin-vsc-2.7.0-universal
+2023-10-26 21:21:01.025 [info] Extension signature verification is not done: github.vscode-pull-request-github
+2023-10-26 21:21:01.033 [info] Extension signature verification is not done: ms-ceintl.vscode-language-pack-pt-br
+2023-10-26 21:21:01.062 [info] Extension signature verification is not done: serayuzgur.crates
+2023-10-26 21:21:01.263 [info] Extracted extension to file:///home/theloremaster/.vscode-oss/extensions/serayuzgur.crates-0.6.3-universal: serayuzgur.crates
+2023-10-26 21:21:01.568 [info] Renamed to /home/theloremaster/.vscode-oss/extensions/serayuzgur.crates-0.6.3-universal
+2023-10-26 21:21:01.577 [info] Extracting extension completed. serayuzgur.crates
+2023-10-26 21:21:01.663 [info] Extension installed successfully: serayuzgur.crates
+2023-10-26 21:21:01.688 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/theloremaster/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/theloremaster/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36019)
+    at i (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36159)
+    at t.toFileSystemProviderError (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47264)
+    at t.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:37859)
+    at async p.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20678)
+    at async K.onDidFilesChange (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12660)
+2023-10-26 21:21:01.698 [info] Marked extension as uninstalled serayuzgur.crates-0.5.11-universal
+2023-10-26 21:21:01.716 [info] Extracted extension to file:///home/theloremaster/.vscode-oss/extensions/github.vscode-pull-request-github-0.74.1-universal: github.vscode-pull-request-github
+2023-10-26 21:21:01.816 [info] Renamed to /home/theloremaster/.vscode-oss/extensions/github.vscode-pull-request-github-0.74.1-universal
+2023-10-26 21:21:01.844 [info] Extracting extension completed. github.vscode-pull-request-github
+2023-10-26 21:21:01.944 [info] Extension installed successfully: github.vscode-pull-request-github
+2023-10-26 21:21:01.962 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/theloremaster/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/theloremaster/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36019)
+    at i (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36159)
+    at t.toFileSystemProviderError (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47264)
+    at t.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:37859)
+    at async p.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20678)
+    at async K.onDidFilesChange (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12660)
+2023-10-26 21:21:01.976 [info] Marked extension as uninstalled github.vscode-pull-request-github-0.68.0-universal
+2023-10-26 21:21:01.987 [info] Extracted extension to file:///home/theloremaster/.vscode-oss/extensions/ms-ceintl.vscode-language-pack-pt-br-1.83.0-universal: ms-ceintl.vscode-language-pack-pt-br
+2023-10-26 21:21:02.096 [info] Renamed to /home/theloremaster/.vscode-oss/extensions/ms-ceintl.vscode-language-pack-pt-br-1.83.0-universal
+2023-10-26 21:21:02.113 [info] Extracting extension completed. ms-ceintl.vscode-language-pack-pt-br
+2023-10-26 21:21:02.213 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-pt-br
+2023-10-26 21:21:02.270 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/theloremaster/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/theloremaster/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36019)
+    at i (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36159)
+    at t.toFileSystemProviderError (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47264)
+    at t.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:37859)
+    at async p.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20678)
+    at async K.onDidFilesChange (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12660)
+2023-10-26 21:21:02.463 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-pt-br-1.81.0-universal
+2023-10-26 21:21:02.624 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-pt-br
+2023-10-26 21:21:04.902 [info] Extracted extension to file:///home/theloremaster/.vscode-oss/extensions/catppuccin.catppuccin-vsc-icons-0.29.0-universal: catppuccin.catppuccin-vsc-icons
+2023-10-26 21:21:05.016 [info] Renamed to /home/theloremaster/.vscode-oss/extensions/catppuccin.catppuccin-vsc-icons-0.29.0-universal
+2023-10-26 21:21:05.020 [info] Extracting extension completed. catppuccin.catppuccin-vsc-icons
+2023-10-26 21:21:05.105 [info] Extension installed successfully: catppuccin.catppuccin-vsc-icons
+2023-10-26 21:21:05.127 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/theloremaster/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/theloremaster/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36019)
+    at i (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36159)
+    at t.toFileSystemProviderError (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47264)
+    at t.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:37859)
+    at async p.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20678)
+    at async K.onDidFilesChange (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12660)
+2023-10-26 21:21:05.141 [info] Marked extension as uninstalled catppuccin.catppuccin-vsc-icons-0.26.0-universal
+2023-10-26 21:21:05.376 [info] Extension signature verification is not done: vscode-icons-team.vscode-icons
+2023-10-26 21:21:08.114 [info] Extracted extension to file:///home/theloremaster/.vscode-oss/extensions/vscode-icons-team.vscode-icons-12.6.0-universal: vscode-icons-team.vscode-icons
+2023-10-26 21:21:08.227 [info] Renamed to /home/theloremaster/.vscode-oss/extensions/vscode-icons-team.vscode-icons-12.6.0-universal
+2023-10-26 21:21:08.234 [info] Extracting extension completed. vscode-icons-team.vscode-icons
+2023-10-26 21:21:08.312 [info] Extension installed successfully: vscode-icons-team.vscode-icons
+2023-10-26 21:21:08.324 [info] Marked extension as uninstalled vscode-icons-team.vscode-icons-12.5.0-universal
+2023-10-26 21:21:08.331 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/theloremaster/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/theloremaster/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36019)
+    at i (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36159)
+    at t.toFileSystemProviderError (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47264)
+    at t.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:37859)
+    at async p.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20678)
+    at async K.onDidFilesChange (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12660)
+2023-10-26 21:21:08.597 [info] Extension signature verification is not done: rust-lang.rust-analyzer
+2023-10-26 21:21:09.502 [info] Extracted extension to file:///home/theloremaster/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1705-linux-x64: rust-lang.rust-analyzer
+2023-10-26 21:21:09.620 [info] Renamed to /home/theloremaster/.vscode-oss/extensions/rust-lang.rust-analyzer-0.3.1705-linux-x64
+2023-10-26 21:21:09.625 [info] Extracting extension completed. rust-lang.rust-analyzer
+2023-10-26 21:21:09.693 [info] Extension installed successfully: rust-lang.rust-analyzer
+2023-10-26 21:21:09.704 [info] Marked extension as uninstalled rust-lang.rust-analyzer-0.3.1615-linux-x64
+2023-10-26 21:21:09.715 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/theloremaster/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/theloremaster/.vscode-oss/extensions/extensions.json.vsctmp'
+    at s.create (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36019)
+    at i (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:36159)
+    at t.toFileSystemProviderError (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:47264)
+    at t.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:37859)
+    at async p.stat (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:20678)
+    at async K.onDidFilesChange (/usr/share/codium/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:12660)
+2023-10-26 21:21:22.559 [error] [uncaught exception in sharedProcess]: Ocorreu um erro no sistema (ENOENT: no such file or directory, scandir '/home/theloremaster/.config/VSCodium/clp/30e0009d15a1d9400489e525e830bb27.pt-br'): Error: ENOENT: no such file or directory, scandir '/home/theloremaster/.config/VSCodium/clp/30e0009d15a1d9400489e525e830bb27.pt-br'

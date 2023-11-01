@@ -1,0 +1,7 @@
+2023-10-26 21:20:27.816 [info] update#setState disabled
+2023-10-26 21:20:27.882 [info] update#ctor - updates are disabled as there is no update URL
+2023-10-26 21:22:23.748 [info] Extension host with pid 2443 exited with code: 0, signal: unknown.
+2023-10-26 21:22:48.000 [info] Extension host with pid 2695 exited with code: 0, signal: unknown.
+2023-10-26 22:37:33.090 [info] Extension host with pid 2898 exited with code: 0, signal: unknown.
+2023-10-26 22:37:34.220 [warning] [storage main] detected slow close() operation: Time: 2857ms, DB size: 57344b, Large Keys: terminal.integrated.bufferState:23184, workbench.view.extensions.state:1973, __$__targetStorageMarker:1577, terminal.integrated.environmentVariableCollectionsV2:1125, workbench.explorer.treeViewState:983
+2023-10-26 22:37:34.233 [warning] [storage main] detected slow close() operation: Time: 2871ms, DB size: 876544b, Large Keys: iconThemeData:250175, colorThemeData:44611, workbench.activity.placeholderViewlets:4257, __$__targetStorageMarker:2119, history.recentlyOpenedPathsList:1777

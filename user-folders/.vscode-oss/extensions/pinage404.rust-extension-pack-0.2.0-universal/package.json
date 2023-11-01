@@ -1,0 +1,51 @@
+{
+	"name": "rust-extension-pack",
+	"displayName": "Rust Extension Pack",
+	"description": "Collection of extensions for Rust ecosystem (Rust, Cargo ...)",
+	"keywords": [
+		"rust",
+		"cargo",
+		"crate",
+		"crates"
+	],
+	"version": "0.2.0",
+	"preview": true,
+	"galleryBanner": {
+		"color": "#212121",
+		"theme": "dark"
+	},
+	"categories": [
+		"Extension Packs"
+	],
+	"extensionPack": [
+		"bungcip.better-toml",
+		"jedeop.crates-completer",
+		"rust-lang.rust-analyzer",
+		"serayuzgur.crates",
+		"swellaby.vscode-rust-test-adapter"
+	],
+	"engines": {
+		"vscode": "^1.59.0"
+	},
+	"private": true,
+	"license": "MIT",
+	"publisher": "pinage404",
+	"homepage": "https://gitlab.com/pinage404/pinage404-vscode-extension-packs/-/tree/main/packages/nix",
+	"repository": {
+		"type": "git",
+		"url": "https://gitlab.com/pinage404/pinage404-vscode-extension-packs.git"
+	},
+	"bugs": {
+		"url": "https://gitlab.com/pinage404/pinage404-vscode-extension-packs/-/issues"
+	},
+	"__metadata": {
+		"id": "59f7c0e9-66ab-4197-abb2-ee952def10ae",
+		"publisherId": "4dc9ef44-41b6-4fb6-af73-1506fbfa493b",
+		"publisherDisplayName": "pinage404",
+		"targetPlatform": "universal",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1691527820978,
+		"preRelease": false
+	}
+}

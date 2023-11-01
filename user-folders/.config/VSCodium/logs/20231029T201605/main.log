@@ -1,0 +1,5 @@
+2023-10-29 20:16:37.180 [info] update#setState disabled
+2023-10-29 20:16:37.336 [info] update#ctor - updates are disabled as there is no update URL
+2023-10-29 20:16:49.794 [error] Não é possível resolver seu ambiente de shell em um tempo razoável. Examine sua configuração de shell e reinicie.
+2023-10-29 20:17:09.492 [error] ptyHost was unable to resolve shell environment Não é possível resolver seu ambiente de shell em um tempo razoável. Examine sua configuração de shell e reinicie.
+2023-10-29 20:18:26.163 [info] Extension host with pid 42570 exited with code: 0, signal: unknown.

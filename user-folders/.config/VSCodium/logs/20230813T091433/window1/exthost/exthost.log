@@ -1,0 +1,151 @@
+2023-08-13 09:14:48.034 [info] Extension host with pid 8607 started
+2023-08-13 09:14:48.034 [info] Skipping acquiring lock for /home/theloremaster/.config/VSCodium/User/workspaceStorage/21a64937b5df70e2b57438850e2cb7df.
+2023-08-13 09:14:48.911 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-13 09:14:48.914 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-08-13 09:14:49.293 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-13 09:14:49.297 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: true, activationEvent: '*'
+2023-08-13 09:14:49.735 [info] ExtensionService#_doActivateExtension hbenl.test-adapter-converter, startup: true, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+2023-08-13 09:14:49.974 [info] ExtensionService#_doActivateExtension kamikillerto.vscode-colorize, startup: true, activationEvent: '*'
+2023-08-13 09:14:53.092 [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: true, activationEvent: '*'
+2023-08-13 09:14:54.943 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-13 09:14:54.944 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-13 09:14:55.015 [info] ExtensionService#_doActivateExtension Swellaby.vscode-rust-test-adapter, startup: true, activationEvent: '*'
+2023-08-13 09:14:55.047 [error] Activating extension Swellaby.vscode-rust-test-adapter failed due to an error:
+2023-08-13 09:14:55.047 [error] Error: Cannot find module '/home/theloremaster/.vscode-oss/extensions/swellaby.vscode-rust-test-adapter-0.11.1-universal/src/main.js'
+Require stack:
+- /usr/share/vscodium/resources/app/out/vs/loader.js
+- /usr/share/vscodium/resources/app/out/bootstrap-amd.js
+- /usr/share/vscodium/resources/app/out/bootstrap-fork.js
+- 
+	at Module._resolveFilename (node:internal/modules/cjs/loader:963:15)
+	at o._resolveFilename (node:electron/js2c/utility_init:2:2994)
+	at Module._load (node:internal/modules/cjs/loader:811:27)
+	at f._load (node:electron/js2c/asar_bundle:2:13330)
+	at o._load (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:34104)
+	at f._load (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:30479)
+	at I._load (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:24270)
+	at Module.require (node:internal/modules/cjs/loader:1035:19)
+	at require (node:internal/modules/cjs/helpers:102:18)
+	at Function.i [as __$__nodeRequire] (/usr/share/vscodium/resources/app/out/vs/loader.js:5:98)
+	at r._loadCommonJSModule (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:32106)
+	at async Promise.all (index 0)
+2023-08-13 09:14:56.579 [info] Eager extensions activated
+2023-08-13 09:14:56.637 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-13 09:14:56.638 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-13 09:14:56.639 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2023-08-13 09:14:56.641 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-08-13 09:14:56.961 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2023-08-13 09:15:01.122 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2023-08-13 10:02:24.592 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2023-08-13 10:21:32.715 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-13 10:21:32.725 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-08-13 10:24:44.447 [info] Extension host terminating: renderer closed the MessagePort
+2023-08-13 10:24:44.530 [error] Canceled: Canceled
+	at new d (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:63475)
+	at t._remoteCall (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:10623)
+	at N.<computed>.F.charCodeAt.N.<computed> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7163)
+	at a._doExecuteCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:88663)
+	at a.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:87988)
+	at w.registerCommand.description (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:87229)
+	at a._executeContributedCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:89298)
+	at a._doExecuteCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:88121)
+	at a.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:102:87988)
+	at Object.executeCommand (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:27031)
+	at Gg.reset (/home/theloremaster/.vscode-oss/extensions/github.vscode-pull-request-github-0.68.0-universal/dist/extension.js:1818:2820)
+	at Gg.dispose (/home/theloremaster/.vscode-oss/extensions/github.vscode-pull-request-github-0.68.0-universal/dist/extension.js:1818:3059)
+	at C (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:13:12153)
+	at r._deactivate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:12653)
+	at /usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9849
+	at Array.map (<anonymous>)
+	at r._deactivateAll (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:9837)
+	at r.terminate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:116:10220)
+	at s.terminate (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:120:1901)
+	at I (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:38659)
+	at MessagePortMain.<anonymous> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:34734)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367) setContext undefined
+2023-08-13 10:24:44.545 [info] Extension host with pid 8607 exiting with code 0
+2023-08-13 10:24:52.773 [info] Extension host with pid 16307 started
+2023-08-13 10:24:52.773 [info] Skipping acquiring lock for /home/theloremaster/.config/VSCodium/User/workspaceStorage/1a90ff57fc757cdae20c3d8c0196be0d.
+2023-08-13 10:24:53.917 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-08-13 10:24:53.920 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: true, activationEvent: '*'
+2023-08-13 10:24:53.979 [info] ExtensionService#_doActivateExtension hbenl.test-adapter-converter, startup: true, activationEvent: '*', root cause: hbenl.vscode-test-explorer
+2023-08-13 10:24:54.001 [info] ExtensionService#_doActivateExtension kamikillerto.vscode-colorize, startup: true, activationEvent: '*'
+2023-08-13 10:24:54.757 [info] ExtensionService#_doActivateExtension hbenl.vscode-test-explorer, startup: true, activationEvent: '*'
+2023-08-13 10:24:55.702 [info] ExtensionService#_doActivateExtension Swellaby.vscode-rust-test-adapter, startup: true, activationEvent: '*'
+2023-08-13 10:24:55.717 [error] Activating extension Swellaby.vscode-rust-test-adapter failed due to an error:
+2023-08-13 10:24:55.717 [error] Error: Cannot find module '/home/theloremaster/.vscode-oss/extensions/swellaby.vscode-rust-test-adapter-0.11.1-universal/src/main.js'
+Require stack:
+- /usr/share/vscodium/resources/app/out/vs/loader.js
+- /usr/share/vscodium/resources/app/out/bootstrap-amd.js
+- /usr/share/vscodium/resources/app/out/bootstrap-fork.js
+- 
+	at Module._resolveFilename (node:internal/modules/cjs/loader:963:15)
+	at o._resolveFilename (node:electron/js2c/utility_init:2:2994)
+	at Module._load (node:internal/modules/cjs/loader:811:27)
+	at f._load (node:electron/js2c/asar_bundle:2:13330)
+	at o._load (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:34104)
+	at f._load (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:30479)
+	at I._load (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:94:24270)
+	at Module.require (node:internal/modules/cjs/loader:1035:19)
+	at require (node:internal/modules/cjs/helpers:102:18)
+	at Function.i [as __$__nodeRequire] (/usr/share/vscodium/resources/app/out/vs/loader.js:5:98)
+	at r._loadCommonJSModule (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:32106)
+	at async Promise.all (index 0)
+2023-08-13 10:24:55.722 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-08-13 10:24:55.729 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-08-13 10:24:55.732 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-08-13 10:24:56.976 [info] Eager extensions activated
+2023-08-13 10:24:57.217 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-08-13 10:24:57.219 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-08-13 10:24:57.220 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onStartupFinished', root cause: GitHub.vscode-pull-request-github
+2023-08-13 10:24:57.223 [info] ExtensionService#_doActivateExtension vscode-icons-team.vscode-icons, startup: false, activationEvent: 'onStartupFinished'
+2023-08-13 10:24:57.422 [info] ExtensionService#_doActivateExtension yandeu.five-server, startup: false, activationEvent: 'onStartupFinished'
+2023-08-13 10:24:58.072 [info] ExtensionService#_doActivateExtension GitHub.vscode-pull-request-github, startup: false, activationEvent: 'onStartupFinished'
+2023-08-13 10:25:39.693 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-08-13 10:36:12.351 [error] [vscode.emmet] provider FAILED
+2023-08-13 10:36:12.389 [error] TypeError: Cannot read properties of undefined (reading 'start')
+	at t.$Xd.b (/usr/share/vscodium/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:130006)
+	at t.$Xd.provideCompletionItems (/usr/share/vscodium/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:128593)
+	at ce.provideCompletionItems (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:60746)
+	at /usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:85821
+	at ue._withAdapter (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:75620)
+	at ue.$provideCompletionItems (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:85796)
+	at t._doInvokeHandler (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:10566)
+	at t._invokeHandler (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:10248)
+	at t._receiveRequest (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:8954)
+	at t._receiveOneMessage (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7705)
+	at r.value (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:5812)
+	at f._deliver (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2465)
+	at f.fire (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2784)
+	at S.fire (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:79:16595)
+	at r.value (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:36608)
+	at f._deliver (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2465)
+	at f.fire (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2784)
+	at S.fire (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:79:16595)
+	at MessagePortMain.<anonymous> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:34685)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367)
+2023-08-13 10:36:13.515 [error] [vscode.emmet] provider FAILED
+2023-08-13 10:36:13.516 [error] TypeError: Cannot read properties of undefined (reading 'start')
+	at t.$Xd.b (/usr/share/vscodium/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:130006)
+	at t.$Xd.provideCompletionItems (/usr/share/vscodium/resources/app/extensions/emmet/dist/node/emmetNodeMain.js:1:128593)
+	at ce.provideCompletionItems (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:60746)
+	at /usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:85821
+	at ue._withAdapter (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:75620)
+	at ue.$provideCompletionItems (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:104:85796)
+	at t._doInvokeHandler (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:10566)
+	at t._invokeHandler (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:10248)
+	at t._receiveRequest (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:8954)
+	at t._receiveOneMessage (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:7705)
+	at r.value (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:114:5812)
+	at f._deliver (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2465)
+	at f.fire (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2784)
+	at S.fire (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:79:16595)
+	at r.value (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:36608)
+	at f._deliver (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2465)
+	at f.fire (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:63:2784)
+	at S.fire (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:79:16595)
+	at MessagePortMain.<anonymous> (/usr/share/vscodium/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:130:34685)
+	at MessagePortMain.emit (node:events:513:28)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:367)
