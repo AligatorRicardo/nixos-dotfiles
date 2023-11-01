@@ -7,7 +7,7 @@ My first attempt at making a decent rice in NixOS with the Hyprland WM, don't ex
 ## 💻 Screenshots
 
 <summary>
-Desktop
+ Desktop
 </summary>
   <img src="https://github.com/AligatorRicardo/nixos-dotfiles/blob/main/desktop.png" alt="My desktop">
 
