@@ -35,6 +35,8 @@
     pkgs.cava
     pkgs.standardnotes
     pkgs.github-desktop
+    pkgs.onlyoffice-bin
+    pkgs.ranger
     # System libraries and basic components
     pkgs.wl-clipboard
     pkgs.wl-clip-persist
@@ -65,6 +67,7 @@
     pkgs.selectdefaultapplication
     # Fonts
     pkgs.nerdfonts
+    pkgs.liberation_ttf
     pkgs.font-awesome
     catppuccinifier.packages.${pkgs.system}.cli
   ];
@@ -110,6 +113,9 @@
 
   # Imports a basic NWG Dock configuration
   xdg.configFile."nwg-dock-hyprland/style.css".source = ./confs/nwg-dock.css;
+
+  # Imports a basic Ranger configuration
+  xdg.configFile."ranger/rc.conf".source = ./confs/ranger.conf;
 
   # You can also manage environment variables but you will have to manually
   # source: ~/.nix-profile/etc/profile.d/hm-session-vars
