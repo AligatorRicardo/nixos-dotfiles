@@ -33,7 +33,6 @@
     pkgs.pixelorama
     pkgs.rclone
     pkgs.cava
-    pkgs.standardnotes
     pkgs.github-desktop
     pkgs.onlyoffice-bin
     pkgs.ranger
