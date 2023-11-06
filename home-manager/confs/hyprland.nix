@@ -22,7 +22,7 @@ exec-once = kdeconnect-indicator
 #exec-once = wireplumber && pipewire
 
 # Enables root access prompt (KDE Polkit Agent).
-exec-once = /nix/store/5mw28ihm0lsc9q1rjjgp453klhxh68rm-polkit-kde-agent-1-5.27.7
+exec-once = /nix/store/5mw28ihm0lsc9q1rjjgp453klhxh68rm-polkit-kde-agent-1-5.27.7/libexec/polkit-kde-authentication-agent-1
 
 # Enables notification support.
 exec-once = swaync
@@ -32,6 +32,9 @@ exec-once = udiskie
 
 # Executes NWG Dock (Plank-like but for wayland).
 exec-once = nwg-dock-hyprland -d
+
+# Automatically syncs folders between Android and NixOS (Syncthing)
+# exec-once = syncthing
 
 # Some default env vars.
 env = XCURSOR_SIZE,24

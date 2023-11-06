@@ -64,6 +64,7 @@
     pkgs.libsecret
     pkgs.neofetch
     pkgs.selectdefaultapplication
+    pkgs.gh
     # Fonts
     pkgs.nerdfonts
     pkgs.liberation_ttf
