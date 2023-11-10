@@ -7,6 +7,7 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
+      ./syncthing.nix
     ];
 
   # Enables SystemD-Bootloader and Plymouth
@@ -41,6 +42,13 @@
   # Remove this to change to SCudo (Default) for high security tasks.
   environment.memoryAllocator.provider = "libc";
 
+  # Automatically collects
+  nix.gc = {
+   automatic = true;
+   dates = "weekly";
+   options = "--delete-older-than 7d";
+  };
+
   # Enables Graphical stack (X.org/Wayland + SDDM + Hyprland WM)
   services.xserver.enable = true;
   services.xserver.libinput.enable = true;
@@ -66,12 +74,12 @@
    NIXOS_OZONE_WL = "1";
   };
 
- # Patches to enable OpenGL support and a NVIDIA patch.
+ # Patches to enable OpenGL support
   hardware = {
       opengl = {
         enable = true;
         driSupport = true;
-       };
+      };
   };
 
   # Enables XDG Portals + GTK File Picker
@@ -91,7 +99,7 @@
   # Enables NVIDIA drivers support (Switching hardware)
   # services.xserver.videoDrivers = ["nvidia"];
 
-  # Configures NVIDIA drivers
+  # Configures NVIDIA drivers (Switching hardware)
   # hardware.nvidia = {
   #    modesetting.enable = true; # Required for all compositors.
   #    powerManagement.finegrained = true; # Turns off DGPU when not in use.
@@ -99,7 +107,7 @@
   #    nvidiaSettings = true; # Enables (although barebones) settings menu.
   #    package = config.boot.kernelPackages.nvidiaPackages.stable; # Defines stable package.
   #
-  # Defines Optimus support. 
+  # Defines Optimus support.
   # WARNING: this will NOT WORK until you replace "x" with iGPU bos info and Y with dGPU bus info
   # obtained by running "sudo lshw -c display" from package "lshw"
   #     prime = {
@@ -109,7 +117,7 @@
   #     };
   # };
 
-  # Creates a specialisation on bootscreen for better battery usage with Prime Render Offload
+  # Creates a specialisation on bootscreen for better battery usage with Prime Render Offload (Switching hardware)
   # specialistation = {
   #   fora-de-casa.configuration = {   
   #       system.nixos.tags = [ "fora-de-casa" ];
@@ -236,6 +244,9 @@
 
   # Automatic backups configuration.nix of all generations. 
   system.copySystemConfiguration = true;
+  
+  # Automatic updates the system
+  system.autoUpgrade.enable = true;
 
   # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions

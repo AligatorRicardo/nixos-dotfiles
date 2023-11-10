@@ -1,0 +1,44 @@
+1698884069208	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1698884187807	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change: scheduling a quick-write in 5000ms
+1698884187857	Sync.Engine.Tabs.Tracker	DEBUG	Detected a tab change, but a quick-write is already scheduled
+1698884193689	Sync.Engine.Tabs	INFO	Uploading 1 outgoing records
+1698884193696	Sync.Engine.Tabs	INFO	Posting 1 records of 515 bytes with batch=true
+1698884193702	FirefoxAccounts	DEBUG	FxAccountsProfileClient: Requested profile
+1698884193702	FirefoxAccounts	DEBUG	getOAuthToken enter
+1698884193723	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1698884193723	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1698884193726	Services.Common.RESTRequest	DEBUG	GET request to https://profile.accounts.firefox.com/v1/profile
+1698884193731	Sync.SyncAuthManager	INFO	Getting sync key
+1698884193733	Sync.SyncAuthManager	INFO	Getting a sync token from: https://token.services.mozilla.com/1.0/sync/1.5
+1698884193734	Sync.SyncAuthManager	DEBUG	Getting a token using OAuth
+1698884193734	FirefoxAccounts	DEBUG	getOAuthToken enter
+1698884193735	FirefoxAccounts	TRACE	getCachedToken returning cached token
+1698884193735	FirefoxAccounts	DEBUG	getOAuthToken returning a cached token
+1698884193735	Services.Common.TokenServerClient	DEBUG	Beginning OAuth token exchange: https://token.services.mozilla.com/1.0/sync/1.5
+1698884193742	Services.Common.RESTRequest	DEBUG	GET request to https://token.services.mozilla.com/1.0/sync/1.5
+1698884194141	Services.Common.RESTRequest	DEBUG	GET https://token.services.mozilla.com/1.0/sync/1.5 200
+1698884194141	Services.Common.TokenServerClient	DEBUG	Got token response: 200
+1698884194142	Services.Common.TokenServerClient	DEBUG	Successful token response
+1698884194143	Sync.Status	DEBUG	Status.login: success.login => success.login
+1698884194143	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1698884194196	Sync.Collection	DEBUG	POST Length: 515
+1698884194238	Services.Common.RESTRequest	DEBUG	GET https://profile.accounts.firefox.com/v1/profile 304
+1698884194479	Sync.Collection	DEBUG	POST success 200 https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200047465/storage/tabs?batch=true&commit=true
+1698884194553	Sync.Telemetry	INFO	Observed notification weave:engine:sync:uploaded but no current sync is being recorded.
+1698884225189	Sync.SyncScheduler	DEBUG	Network link status changed to "down". Offline?: false
+1698884225212	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1698884225217	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=schedule)
+1698884225416	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1698884227227	Sync.SyncScheduler	DEBUG	Network link status changed to "changed". Offline?: false
+1698884230862	Sync.SyncScheduler	DEBUG	Network link status changed to "up". Offline?: false
+1698884230863	Sync.SyncScheduler	DEBUG	Network link looks up. Syncing.
+1698884230912	Sync.Service	DEBUG	User-Agent: Firefox/118.0.2-1 (Linux x86_64) FxSync/1.120.0.20231012094953.desktop
+1698884230913	Sync.Service	INFO	Starting sync at 2023-11-01 21:17:10 in browser session Nj-YAC_UnRGR
+1698884230913	Sync.SyncScheduler	DEBUG	Clearing sync triggers and the global score.
+1698884230924	Sync.Status	INFO	Resetting Status.
+1698884230924	Sync.Status	DEBUG	Status.service: success.status_ok => success.status_ok
+1698884230927	FirefoxAccounts	TRACE	not checking freshness of profile as it remains recent
+1698884233232	Sync.Resource	WARN	GET request to https://sync-1-us-west1-g.sync.services.mozilla.com/1.5/200047465/info/collections failed: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1698884233234	Sync.ErrorHandler	ERROR	Sync encountered an error: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available
+1698884233266	Sync.SyncScheduler	DEBUG	Next sync in 600000 ms. (why=reschedule)
+1698884233282	Sync.Service	DEBUG	Exception calling anonymous function: [Exception... "Abort"  nsresult: "0x80004004 (NS_ERROR_ABORT)"  location: "<unknown>"  data: no] No traceback available

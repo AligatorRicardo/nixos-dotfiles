@@ -1,0 +1,50 @@
+(N) 2023-10-29T17:13:45 - qBittorrent v4.5.5 iniciado
+(N) 2023-10-29T17:13:45 - Usando diretório das configurações: /home/theloremaster/.var/app/org.qbittorrent.qBittorrent/config/qBittorrent
+(N) 2023-10-29T17:13:54 - Finalização do qBittorrent iniciada
+(N) 2023-10-29T17:13:55 - O qBittorrent agora está pronto para ser fechado
+(N) 2023-10-29T17:19:15 - qBittorrent v4.5.5 iniciado
+(N) 2023-10-29T17:19:15 - Usando diretório das configurações: /home/theloremaster/.var/app/org.qbittorrent.qBittorrent/config/qBittorrent
+(N) 2023-10-29T17:19:29 - Finalização do qBittorrent iniciada
+(N) 2023-10-29T17:19:29 - O qBittorrent agora está pronto para ser fechado
+(N) 2023-11-01T20:17:32 - qBittorrent v4.5.5 iniciado
+(N) 2023-11-01T20:17:32 - Usando diretório das configurações: /home/theloremaster/.var/app/org.qbittorrent.qBittorrent/config/qBittorrent
+(N) 2023-11-01T20:17:36 - Tentando escutar na seguinte lista de endereços de IP: "0.0.0.0:47052,[::]:47052"
+(I) 2023-11-01T20:17:37 - ID do peer: "-qB4550-"
+(I) 2023-11-01T20:17:37 - Agente do Usuário HTTP: "qBittorrent/4.5.5"
+(I) 2023-11-01T20:17:37 - Suporte a Tabela do Hash Distribuído (DHT): LIGADO
+(I) 2023-11-01T20:17:37 - Suporte a Descoberta de Peers locais: LIGADO
+(I) 2023-11-01T20:17:37 - Suporte para Troca de Peers (PeX): LIGADO
+(I) 2023-11-01T20:17:37 - Modo anônimo: DESLIGADO
+(I) 2023-11-01T20:17:37 - Suporte a criptografia: LIGADO
+(I) 2023-11-01T20:17:37 - Suporte a UPnP/NAT-PMP: LIGADO
+(I) 2023-11-01T20:17:37 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "TCP/47052"
+(I) 2023-11-01T20:17:37 - Êxito ao escutar no IP. IP: "127.0.0.1". Porta: "UDP/47052"
+(I) 2023-11-01T20:17:37 - Êxito ao escutar no IP. IP: "192.168.0.8". Porta: "TCP/47052"
+(I) 2023-11-01T20:17:37 - Êxito ao escutar no IP. IP: "192.168.0.8". Porta: "UDP/47052"
+(I) 2023-11-01T20:17:37 - Êxito ao escutar no IP. IP: "::1". Porta: "TCP/47052"
+(I) 2023-11-01T20:17:37 - Êxito ao escutar no IP. IP: "::1". Porta: "UDP/47052"
+(I) 2023-11-01T20:17:37 - Êxito ao escutar no IP. IP: "2804:29b8:5089:47f5:36e4:92cd:4b:6e56". Porta: "TCP/47052"
+(I) 2023-11-01T20:17:37 - Êxito ao escutar no IP. IP: "2804:29b8:5089:47f5:36e4:92cd:4b:6e56". Porta: "UDP/47052"
+(I) 2023-11-01T20:17:37 - Êxito ao escutar no IP. IP: "2804:29b8:5089:47f5:8690:83cf:e2e4:877". Porta: "TCP/47052"
+(I) 2023-11-01T20:17:37 - Êxito ao escutar no IP. IP: "2804:29b8:5089:47f5:8690:83cf:e2e4:877". Porta: "UDP/47052"
+(I) 2023-11-01T20:17:37 - Êxito ao escutar no IP. IP: "fe80::c459:cabb:91d5:1932%wlo1". Porta: "TCP/47052"
+(I) 2023-11-01T20:17:37 - Êxito ao escutar no IP. IP: "fe80::c459:cabb:91d5:1932%wlo1". Porta: "UDP/47052"
+(W) 2023-11-01T20:17:37 - Não pôde carregar o banco de dados da geo-localização dos IPs. Motivo: No such file or directory
+(I) 2023-11-01T20:17:38 - Detectado IP externo. IP: "187.19.176.17"
+(I) 2023-11-01T20:17:38 - Detectado IP externo. IP: "2804:29b8:5089:47f5:36e4:92cd:4b:6e56"
+(I) 2023-11-01T20:17:39 - Banco de dados da geo-localização dos IPs carregado. Tipo: DBIP-Country-Lite. Data do build: ter. out. 31 22:06:47 2023.
+(I) 2023-11-01T20:17:39 - Banco de dados da geo-localização dos IPs atualizado com sucesso.
+(I) 2023-11-01T20:17:39 - Detectado IP externo. IP: "2804:29b8:5089:47f5:8690:83cf:e2e4:877"
+(W) 2023-11-01T20:20:13 - Falha ao mapear portas UPnP/NAT-PMP. Mensagem: "could not map port using UPnP: no router found"
+(W) 2023-11-01T20:20:13 - Falha ao mapear portas UPnP/NAT-PMP. Mensagem: "could not map port using UPnP: no router found"
+(N) 2023-11-01T20:20:19 - Opções salvas.
+(I) 2023-11-01T21:17:10 - O estado da rede do sistema foi alterado para OFF-LINE
+(I) 2023-11-01T21:17:22 - Êxito ao escutar no IP. IP: "192.168.0.8". Porta: "TCP/47052"
+(I) 2023-11-01T21:17:22 - Êxito ao escutar no IP. IP: "192.168.0.8". Porta: "UDP/47052"
+(I) 2023-11-01T21:17:23 - Êxito ao escutar no IP. IP: "fe80::c459:cabb:91d5:1932%wlo1". Porta: "TCP/47052"
+(I) 2023-11-01T21:17:23 - Êxito ao escutar no IP. IP: "fe80::c459:cabb:91d5:1932%wlo1". Porta: "UDP/47052"
+(I) 2023-11-01T21:17:25 - Êxito ao escutar no IP. IP: "2804:29b8:5089:47f5:df94:685a:b6fc:4f32". Porta: "TCP/47052"
+(I) 2023-11-01T21:17:25 - Êxito ao escutar no IP. IP: "2804:29b8:5089:47f5:df94:685a:b6fc:4f32". Porta: "UDP/47052"
+(I) 2023-11-01T21:17:26 - Êxito ao escutar no IP. IP: "2804:29b8:5089:47f5:8690:83cf:e2e4:877". Porta: "TCP/47052"
+(I) 2023-11-01T21:17:26 - Êxito ao escutar no IP. IP: "2804:29b8:5089:47f5:8690:83cf:e2e4:877". Porta: "UDP/47052"
+(I) 2023-11-01T21:17:29 - O estado da rede do sistema foi alterado para ON-LINE

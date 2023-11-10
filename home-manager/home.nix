@@ -30,7 +30,6 @@
     pkgs.xfce.mousepad
     pkgs.distrobox
     pkgs.godot_4
-    pkgs.pixelorama
     pkgs.rclone
     pkgs.cava
     pkgs.github-desktop
@@ -49,6 +48,7 @@
     pkgs.swaynotificationcenter
     pkgs.swaylock-effects  
     pkgs.nwg-bar    
+    pkgs.wlogout
     pkgs.nwg-dock-hyprland
     pkgs.swayosd
     pkgs.udiskie
@@ -63,7 +63,6 @@
     pkgs.libinput
     pkgs.libsecret
     pkgs.neofetch
-    pkgs.selectdefaultapplication
     pkgs.gh
     # Fonts
     pkgs.nerdfonts
@@ -82,7 +81,9 @@
 
   # Imports a basic rofi configuration
   xdg.configFile."rofi/config.rasi".source = ./confs/config.rasi;
-  xdg.configFile."rofi/catppuccin-mocha.rasi".source = ./confs/catppuccin.rasi;
+  #xdg.configFile."rofi/catppuccin-mocha.rasi".source = ./confs/catppuccin.rasi;
+  xdg.configFile."rofi/colors-rofi-dark.rasi".source = ./confs/colors-rofi-dark.rasi;
+  # xdg.configFile."rofi/powermenu.rasi".source = ./confs/powermenu.rasi;
 
   # Imports a basic swaync configuration
   xdg.configFile."swaync/config.json".source = ./confs/styles/swaync/config.json;
@@ -97,9 +98,8 @@
   # Imports a basic Swaylock configuration
   xdg.configFile."swaylock/config".source = ./confs/swaylock.config;
 
-  # Imports a basic NWG Bar configuration
-  xdg.configFile."nwg-bar/bar.json".source = ./confs/styles/nwg-bar/bar.json;
-  #xdg.configFile."nwg-bar/style.css".source = ./confs/styles/nwg-bar/style.css;
+  # Imports a basic WLogout configuration
+  xdg.configFile."wlogout/style.css".source = ./confs/wlogout.css;
 
   # Imports a basic Godot configuration
   xdg.configFile."godot/text_editor_themes/Catppuccin.tet".source = ./confs/godot-catppuccin.tet;
