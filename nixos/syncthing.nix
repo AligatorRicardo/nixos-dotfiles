@@ -20,7 +20,11 @@
          path = "/home/theloremaster/Documentos/Obsidian\ Notes/";    # Which folder to add to Syncthing
          devices = [ "iPhone Invertido"];      # Which devices to share the folder with
          };
-    };
+        "DCIM" = {
+        path = "/home/theloremaster/Imagens/Photos";
+        devices = [ "iPhone Invertido"];
+        };
+   };
  };
 
 }
