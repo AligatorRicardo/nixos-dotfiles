@@ -185,8 +185,10 @@ bind = , XF86AudioRaiseVolume, exec, pamixer -i 5
 bind = , XF86AudioLowerVolume, exec, pamixer -d 5 
 bind = , XF86AudioMute, exec, pamixer -t
 bind = , Print, exec, grim -g "$(slurp)"
+bind = SUPER, F1, exec, ~/.config/hypr/animations.sh
 '';
 
   xdg.configFile."hypr/hyprpaper.conf".source = ./hyprpaper.conf;
 
+  xdg.configFile."hypr/animations.sh".source = ./animations.sh;
 }
