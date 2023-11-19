@@ -1,0 +1,13 @@
+[Desktop Entry]
+Name=VSCodium - URL Handler  (on devspace)
+Comment=Code Editing. Redefined.
+GenericName=Text Editor  (on devspace)
+Exec=/home/theloremaster/.nix-profile/bin/distrobox-enter  -n devspace --   /usr/share/codium/codium --open-url  %U
+Icon=vscodium
+Type=Application
+NoDisplay=true
+StartupNotify=true
+Categories=Utility;TextEditor;Development;IDE;
+MimeType=x-scheme-handler/vscodium;
+Keywords=vscode;
+StartupWMClass=codium

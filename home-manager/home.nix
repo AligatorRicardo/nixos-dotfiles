@@ -35,6 +35,8 @@
     pkgs.github-desktop
     pkgs.onlyoffice-bin
     pkgs.ranger
+    pkgs.kjv
+    pkgs.playerctl
     # System libraries and basic components
     pkgs.wl-clipboard
     pkgs.wl-clip-persist
@@ -58,7 +60,6 @@
     pkgs.libayatana-appindicator
     pkgs.htop
     pkgs.pamixer
-    pkgs.mpd
     pkgs.pw-viz
     pkgs.libinput
     pkgs.libsecret
@@ -116,6 +117,9 @@
 
   # Imports a basic Ranger configuration
   xdg.configFile."ranger/rc.conf".source = ./confs/ranger.conf;
+
+  # Imports a basic Powerlevel10k configuration
+  xdg.configFile."zsh/.p10k.zsh".source = ./confs/p10k.zsh;
 
   # You can also manage environment variables but you will have to manually
   # source: ~/.nix-profile/etc/profile.d/hm-session-vars

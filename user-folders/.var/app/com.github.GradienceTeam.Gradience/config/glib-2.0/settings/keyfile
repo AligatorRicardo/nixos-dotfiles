@@ -1,0 +1,15 @@
+[com/github/GradienceTeam/Gradience]
+last-opened-version='0.4.1'
+user-flatpak-theming-gtk4=true
+first-run=false
+
+enabled-plugins=['firefox_gnome_theme']
+
+window-width=1000
+window-height=700
+window-maximized=false
+window-fullscreen=false
+
+[org/gtk/gtk4/settings/color-chooser]
+selected-color=(true, 0.0, 0.16078431904315948, 0.47058823704719543, 1.0)
+custom-colors=[(0.0, 0.16078431904315948, 0.47058823704719543, 1.0)]

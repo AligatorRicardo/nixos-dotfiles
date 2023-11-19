@@ -65,3 +65,37 @@
 2023-11-09 23:42:59 Success.
 2023-11-09 23:42:59 Latest version is 1.4.16
 2023-11-09 23:42:59 App is up to date.
+2023-11-10 21:38:12 Loading main app package /app/resources/obsidian.asar
+2023-11-10 21:38:30 Checking for update using Github
+2023-11-10 21:38:38 Success.
+2023-11-10 21:38:38 Latest version is 1.4.16
+2023-11-10 21:38:38 App is up to date.
+2023-11-10 21:39:55 Loading main app package /app/resources/obsidian.asar
+2023-11-10 21:39:56 Checking for update using Github
+2023-11-10 21:39:56 Success.
+2023-11-10 21:39:56 Latest version is 1.4.16
+2023-11-10 21:39:56 App is up to date.
+2023-11-10 22:39:56 Checking for update using Github
+2023-11-10 23:40:09 Loading main app package /app/resources/obsidian.asar
+2023-11-10 23:40:16 Checking for update using Github
+2023-11-10 23:40:19 Success.
+2023-11-10 23:40:19 Latest version is 1.4.16
+2023-11-10 23:40:19 App is up to date.
+2023-11-11 00:40:09 Checking for update using Github
+2023-11-11 00:40:10 Success.
+2023-11-11 00:40:10 Latest version is 1.4.16
+2023-11-11 00:40:10 App is up to date.
+2023-11-11 01:40:10 Checking for update using Github
+2023-11-11 01:40:10 Success.
+2023-11-11 01:40:10 Latest version is 1.4.16
+2023-11-11 01:40:10 App is up to date.
+2023-11-15 13:56:28 Loading main app package /app/resources/obsidian.asar
+2023-11-15 13:56:36 Checking for update using Github
+2023-11-15 13:56:37 Failed to check for update using Github (net::ERR_INTERNET_DISCONNECTED)
+2023-11-15 13:56:37 Checking for update using obsidian.md
+2023-11-15 13:56:37 Failed to check for update using obsidian.md (net::ERR_INTERNET_DISCONNECTED)
+2023-11-18 01:41:01 Loading main app package /app/resources/obsidian.asar
+2023-11-18 01:41:10 Checking for update using Github
+2023-11-18 01:41:11 Failed to check for update using Github (net::ERR_INTERNET_DISCONNECTED)
+2023-11-18 01:41:11 Checking for update using obsidian.md
+2023-11-18 01:41:11 Failed to check for update using obsidian.md (net::ERR_INTERNET_DISCONNECTED)

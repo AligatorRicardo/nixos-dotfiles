@@ -8,6 +8,7 @@
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
       ./syncthing.nix
+      #<nixpkgs/nixos/modules/profiles/hardened.nix>
     ];
 
   # Enables SystemD-Bootloader and Plymouth
@@ -17,17 +18,13 @@
   boot.plymouth.enable = true;
 
   # Configures kernel parameters
-  boot.kernelParams = [ "quiet" "udev.log_level=3" "radeon.cik.support=0" "amdgpu.cik.support=1"  ]; # Remove radeon.cik and amd.cik when switching hardware.
+  boot.kernelParams = [ "quiet" "udev.log_level=3" "radeon.cik_support=0" "amdgpu.cik_support=1"  ]; # Remove radeon.cik and amd.cik when switching hardware.
 
   # Setup keyfile
   boot.initrd.secrets = {
     "/crypto_keyfile.bin" = null;
   };
-
-  # Enables AppArmor support
-  security.apparmor.enable = true;
-  security.apparmor.killUnconfinedConfinables = true;
-
+  
   # Enable swap on luks
   boot.initrd.luks.devices."luks-d52c9012-8de5-425a-ad96-b674d052e8ef".device = "/dev/disk/by-uuid/d52c9012-8de5-425a-ad96-b674d052e8ef";
   boot.initrd.luks.devices."luks-d52c9012-8de5-425a-ad96-b674d052e8ef".keyFile = "/crypto_keyfile.bin";
@@ -40,7 +37,7 @@
 
   # Changes memory allocator to LibC (Less secure, but more functional.
   # Remove this to change to SCudo (Default) for high security tasks.
-  environment.memoryAllocator.provider = "libc";
+  environment.memoryAllocator.provider = "graphene-hardened";
 
   # Automatically collects
   nix.gc = {
@@ -119,14 +116,14 @@
 
   # Creates a specialisation on bootscreen for better battery usage with Prime Render Offload (Switching hardware)
   # specialistation = {
-  #   fora-de-casa.configuration = {   
-  #       system.nixos.tags = [ "fora-de-casa" ];
-  #       hardware.nvidia = {
-  #          prime.offload.enable = lib.mkForce true;
-  #          prime.offload.enableOffloadCmd = lib.mkForce true;
-  #          prime.sync.enable = lib.mkForce false;
-  #       };    
-  #       services.tlp = {
+  #     fora-de-casa.configuration = {   
+  #         system.nixos.tags = [ "fora-de-casa" ];
+  #         hardware.nvidia = {
+  #            prime.offload.enable = lib.mkForce true;
+  #            prime.offload.enableOffloadCmd = lib.mkForce true;
+  #            prime.sync.enable = lib.mkForce false;
+  #     };    
+  #     services.tlp = {
   #         enable = true;
   #          settings = {
   #             CPU_SCALING_GOVERNOR_ON_AC = "performance";
@@ -138,8 +135,8 @@
   #             CPU_MIN_PERF_ON_BAT = 0;
   #             CPU_MAX_PERF_ON_BAT = 20;
   #             RUNTIME_PM_DRIVER_DENYLIST = "mei_me";
-  #         };       
-  #   };
+  #          };       
+  #     };
   # };
 
   # Set your time zone.
@@ -199,6 +196,7 @@
   lshw
   brightnessctl 
   cachix
+  gamescope
   libsForQt5.qt5.qtquickcontrols2
   libsForQt5.qt5.qtgraphicaleffects
   ];

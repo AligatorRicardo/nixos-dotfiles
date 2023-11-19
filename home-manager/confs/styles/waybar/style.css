@@ -127,7 +127,7 @@ window#waybar {
 #custom-power,
 #custom-launcher,
 #custom-notification,
-#mpd {
+#mpris {
     padding: 5px 8px;
     border-style: solid;
     background-color: shade(@base, 1);
@@ -138,36 +138,11 @@ window#waybar {
 /* -----------------------------------------------------------------------------
   * Module styles
   * -------------------------------------------------------------------------- */
-#mpd {
+#mpris {
     border-radius: 10px;
     color: @mauve;
     margin-left: 5px;
     background-color: rgba(0, 0, 0, 0);
-}
-
-#mpd.2 {
-    border-radius: 10px 0px 0px 10px;
-    margin: 8px 0px 8px 6px;
-    padding: 4px 12px 4px 10px;
-}
-
-#mpd.3 {
-    border-radius: 0px 0px 0px 0px;
-    margin: 8px 0px 8px 0px;
-    padding: 4px;
-}
-
-#mpd.4 {
-    border-radius: 0px 10px 10px 0px;
-    margin: 8px 0px 8px 0px;
-    padding: 4px 10px 4px 14px;
-}
-
-#mpd.2,
-#mpd.3,
-#mpd.4 {
-    background-color: @base;
-    font-size: 14px;
 }
 
 #mode {

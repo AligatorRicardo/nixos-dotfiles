@@ -3,6 +3,11 @@ configuration {
     show-icons:                 true;
     drun-display-format:        "{name}";
     icon-theme: "Oranchelo";
+    modi: "run,drun,window";
+    display-drun: "   Apps ";
+    display-run: "   Run ";
+    display-Network: " 󰤨  Network";
+    display-window: " 﩯  Window";
 }
 
 

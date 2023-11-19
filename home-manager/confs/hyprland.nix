@@ -13,7 +13,7 @@ exec-once = hyprpaper
 exec-once=hyprctl setcursor Catppuccin-Mocha-Mauve-Cursors 24
 
 # Starts Waybar on boot.
-exec-once = waybar
+exec-once = waybar && mpd
 
 # Autostarts KDE Connect Indicator.
 exec-once = kdeconnect-indicator

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Devspace
+GenericName=Terminal entering Devspace
+Comment=Terminal entering Devspace
+Categories=Distrobox;System;Utility
+Exec=/nix/store/xbbjn41qbp93bkl62f4wrmrj89k3cz3v-distrobox-1.5.0.2/bin/distrobox enter  devspace
+Icon=/home/theloremaster/.local/share/icons/distrobox/fedora.png
+Keywords=distrobox;
+NoDisplay=false
+Terminal=true
+TryExec=/nix/store/xbbjn41qbp93bkl62f4wrmrj89k3cz3v-distrobox-1.5.0.2/bin/distrobox
+Type=Application

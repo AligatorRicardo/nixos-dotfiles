@@ -8,7 +8,7 @@
     "margin-right": 5,
     //"width": 1350, // Waybar width
     // Choose the order of the modules idle_inhibitor
-    "modules-left": ["custom/launcher", "hyprland/workspaces", "tray", "mpd#2", "mpd#3", "mpd#4", "mpd"],
+    "modules-left": ["custom/launcher", "hyprland/workspaces", "tray", "mpris"],
     "modules-center": ["clock"],
     "modules-right": ["backlight", "pulseaudio", "temperature", "memory", "battery", "network", "custom/notification", "custom/power"], 
     
@@ -231,5 +231,18 @@
 	"format":" ",
 	"on-click": "exec nwggrid -c 7 -is 70 -spacing 23",
 	"tooltip": false,
+},
+
+"mpris": {
+	"format": "{player_icon} {artist} - {title}",
+	"format-paused": "{status_icon}",
+	"player-icons": {
+		"default": "⏸",
+		"mpv": "🎵"
+	},
+	"status-icons": {
+		"paused": "▶"
+	},
+	// "ignored-players": ["librewolf"]
 },
 }
