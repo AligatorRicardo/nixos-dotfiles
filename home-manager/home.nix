@@ -65,6 +65,8 @@
     pkgs.libsecret
     pkgs.neofetch
     pkgs.gh
+    pkgs.playerctl
+    pkgs.lightly-qt
     # Fonts
     pkgs.nerdfonts
     pkgs.liberation_ttf

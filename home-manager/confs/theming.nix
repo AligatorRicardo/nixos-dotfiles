@@ -37,7 +37,7 @@
 
   qt.enable = true;
   qt.platformTheme = "qtct";
-  qt.style.name = "kvantum";
+  #qt.style.name = "kvantum";
 
   home.packages = with pkgs; [
     (catppuccin-kvantum.override {

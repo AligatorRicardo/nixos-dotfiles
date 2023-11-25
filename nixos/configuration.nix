@@ -33,7 +33,10 @@
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Enable networking
-  networking.networkmanager.enable = true;
+  networking.networkmanager = {
+     enable = true;
+     #dns = "none";     
+  };
 
   # Changes memory allocator to LibC (Less secure, but more functional.
   # Remove this to change to SCudo (Default) for high security tasks.
@@ -218,15 +221,28 @@
   # Enables USB automouting (allows Udiskie on home-manager to fuction)
   services.udisks2.enable = true;
 
-  # Enables and configures a network firewall.
-  networking.firewall = {
-      enable = true;
-      allowedTCPPorts = [];
-      allowedUDPPorts = [];
-      allowedTCPPortRanges = [ { from = 1714; to = 1764; } ];     
-      allowedUDPPortRanges = [ { from = 1714; to = 1764; } ];
-   };
+  #
+  services.resolved = {
+       enable = true;
+       extraConfig = "
+DNS=45.90.28.0#968e21.dns.nextdns.io
+DNS=2a07:a8c0::#968e21.dns.nextdns.io
+DNS=45.90.30.0#968e21.dns.nextdns.io
+DNS=2a07:a8c1::#968e21.dns.nextdns.io
+DNSOverTLS=yes
+DNSSEC=false
+       ";
+  };
 
+  # Enables and configures a network firewall and allows patches NetworkManager for NextDNS.
+  networking.firewall = {
+        enable = true;
+        allowedTCPPorts = [];
+        allowedUDPPorts = [];
+        allowedTCPPortRanges = [ { from = 1714; to = 1764; } ];     
+        allowedUDPPortRanges = [ { from = 1714; to = 1764; } ];
+  };
+ 
   # Fixes Swaylock
   security.pam.services = {
      swaylock = {
