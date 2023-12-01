@@ -44,6 +44,7 @@
       accent = "Mauve";
       variant = "Mocha";
     })
+    haguichi
   ];
 
   xdg.configFile."Kvantum/kvantum.kvconfig".source = ./kvantum.conf;

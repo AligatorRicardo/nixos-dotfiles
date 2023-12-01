@@ -40,7 +40,7 @@
 
   # Changes memory allocator to LibC (Less secure, but more functional.
   # Remove this to change to SCudo (Default) for high security tasks.
-  environment.memoryAllocator.provider = "graphene-hardened";
+  #environment.memoryAllocator.provider = "graphene-hardened";
 
   # Automatically collects
   nix.gc = {
@@ -221,7 +221,7 @@
   # Enables USB automouting (allows Udiskie on home-manager to fuction)
   services.udisks2.enable = true;
 
-  #
+  # Enables NextDNS
   services.resolved = {
        enable = true;
        extraConfig = "
@@ -255,7 +255,7 @@ DNSSEC=false
         enableKwallet = true;
      };
   };
-
+ 
   # Automatic backups configuration.nix of all generations. 
   system.copySystemConfiguration = true;
   

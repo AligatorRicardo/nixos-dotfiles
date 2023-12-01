@@ -191,4 +191,40 @@ bind = SUPER, F1, exec, ~/.config/hypr/animations.sh
   xdg.configFile."hypr/hyprpaper.conf".source = ./hyprpaper.conf;
 
   xdg.configFile."hypr/animations.sh".source = ./animations.sh;
+
+  home.packages = with pkgs; [
+    # System libraries and basic components
+    pkgs.wl-clipboard
+    pkgs.wl-clip-persist
+    pkgs.cliphist
+    pkgs.feh
+    pkgs.grim
+    pkgs.slurp
+    pkgs.gtk-engine-murrine
+    pkgs.hyprpaper
+    pkgs.waybar
+    pkgs.swaynotificationcenter
+    pkgs.swaylock-effects  
+    pkgs.nwg-bar    
+    pkgs.wlogout
+    pkgs.nwg-dock-hyprland
+    pkgs.swayosd
+    pkgs.udiskie
+    pkgs.xdg-user-dirs
+    pkgs.libsForQt5.polkit-kde-agent
+    pkgs.gnome.gvfs
+    pkgs.libayatana-appindicator
+    pkgs.pamixer
+    pkgs.pw-viz
+    pkgs.libinput
+    pkgs.libsecret
+    pkgs.gh
+    pkgs.git
+    pkgs.playerctl
+    # Fonts
+    pkgs.nerdfonts
+    pkgs.liberation_ttf
+    pkgs.font-awesome
+  ];
+
 }
